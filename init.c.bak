@@ -1,0 +1,135 @@
+//Spawn helper function
+
+void SpawnObject(string objType, vector objPos, vector objOrientation)
+
+{
+
+	Object m_Building = Object.Cast(GetGame().CreateObject(objType, objPos));
+
+	if (m_Building == null) return;
+
+	m_Building.SetAffectPathgraph(true, false);
+
+	GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(GetGame().UpdatePathgraphRegionByObject, 100, false, m_Building);
+
+	m_Building.SetPosition(objPos);
+
+	m_Building.SetOrientation(objOrientation);
+
+}
+
+void main()
+{
+	//INIT ECONOMY--------------------------------------
+	Hive ce = CreateHive();
+	if ( ce )
+		ce.InitOffline();
+
+	//DATE RESET AFTER ECONOMY INIT-------------------------
+	int year, month, day, hour, minute;
+	int reset_month = 9, reset_day = 20;
+	GetGame().GetWorld().GetDate(year, month, day, hour, minute);
+
+	if ((month == reset_month) && (day < reset_day))
+	{
+		GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+	}
+	else
+	{
+		if ((month == reset_month + 1) && (day > reset_day))
+		{
+			GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+		}
+		else
+		{
+			if ((month < reset_month) || (month > reset_month + 1))
+			{
+				GetGame().GetWorld().SetDate(year, reset_month, reset_day, hour, minute);
+			}
+		}
+	}
+	// Staff Castle
+	SpawnObject("Land_Castle_Bergfrit", "14202.400391 6.632950 2616.260010", "28.000000 0.000000 0.000000");
+	SpawnObject("Land_Castle_Wall2_End2_nolc", "14191.695313 4.044106 2648.834229", "161.999832 0.000000 -0.000000");
+	SpawnObject("Land_Castle_Wall2_End2", "14223.770508 3.385495 2639.189453", "56.000000 0.000000 0.000000");
+	SpawnObject("Land_Castle_Gate", "14165.970703 -0.116387 2636.293945", "116.999893 0.000000 -0.000000");
+	SpawnObject("Land_Castle_Wall2_End1", "14172.887695 -0.029819 2620.014160", "72.999893 0.000000 0.000000");
+	SpawnObject("Land_Castle_Bastion", "14191.400391 -7.886545 2583.439941", "167.999969 0.000000 0.000000");
+	SpawnObject("bldr_Panel_Concrete_Small_Dam", "14200.412109 23.386339 2618.109131", "27.000000 -0.000000 -0.000000");
+	SpawnObject("bldr_Panel_Concrete_Small_Dam", "14198.818359 23.386339 2615.006104", "27.000000 -0.000000 -0.000000");
+	SpawnObject("Land_Castle_Wall1_Corner2", "14199.402344 -1.008830 2617.540039", "-42.499985 0.000000 0.000000");
+	SpawnObject("Land_Castle_Wall1_Corner2", "14205.106445 2.091170 2620.340088", "45.999989 0.000000 0.000000");
+	SpawnObject("Land_Castle_Wall1_Corner2", "14205.056641 7.497561 2613.720703", "134.999893 0.000000 -0.000000");
+	SpawnObject("Land_Castle_Wall2_Corner1_nolc", "14201.067383 8.576385 2612.962158", "170.999863 0.000000 -0.000000");
+	SpawnObject("bldr_Panel_Concrete_Small_Dam", "14208.500000 17.086300 2617.510010", "117.500000 -89.499535 0.000000");
+	SpawnObject("bldr_Panel_Concrete_Small_Dam", "14206.408203 17.086300 2613.205811", "117.500000 -89.498367 0.000000");
+	SpawnObject("bldr_Panel_Concrete_Small_Dam", "14198.937500 17.086300 2619.311768", "117.500000 -89.498367 0.000000");
+	SpawnObject("bldr_Panel_Concrete_Small_Dam", "14205.302734 17.086300 2622.519043", "32.500000 -89.498367 0.000000");
+}
+
+class CustomMission: MissionServer
+{
+	void SetRandomHealth(EntityAI itemEnt)
+	{
+		if ( itemEnt )
+		{
+			float rndHlt = Math.RandomFloat( 0.45, 0.65 );
+			itemEnt.SetHealth01( "", "", rndHlt );
+		}
+	}
+
+	override PlayerBase CreateCharacter(PlayerIdentity identity, vector pos, ParamsReadContext ctx, string characterName)
+	{
+		Entity playerEnt;
+		playerEnt = GetGame().CreatePlayer( identity, characterName, pos, 0, "NONE" );
+		Class.CastTo( m_player, playerEnt );
+
+		GetGame().SelectPlayer( identity, m_player );
+
+		return m_player;
+	}
+
+	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
+	{
+		EntityAI itemClothing;
+		EntityAI itemEnt;
+		ItemBase itemBs;
+		float rand;
+
+		itemClothing = player.FindAttachmentBySlotName( "Body" );
+		if ( itemClothing )
+		{
+			SetRandomHealth( itemClothing );
+			
+			itemEnt = itemClothing.GetInventory().CreateInInventory( "BandageDressing" );
+			if ( Class.CastTo( itemBs, itemEnt ) )
+				itemBs.SetQuantity( 2 );
+
+			string chemlightArray[] = { "Chemlight_White", "Chemlight_Yellow", "Chemlight_Green", "Chemlight_Red" };
+			int rndIndex = Math.RandomInt( 0, 4 );
+			itemEnt = itemClothing.GetInventory().CreateInInventory( chemlightArray[rndIndex] );
+			SetRandomHealth( itemEnt );
+
+			rand = Math.RandomFloatInclusive( 0.0, 1.0 );
+			if ( rand < 0.35 )
+				itemEnt = player.GetInventory().CreateInInventory( "Apple" );
+			else if ( rand > 0.65 )
+				itemEnt = player.GetInventory().CreateInInventory( "Pear" );
+			else
+				itemEnt = player.GetInventory().CreateInInventory( "Plum" );
+
+			SetRandomHealth( itemEnt );
+		}
+		
+		itemClothing = player.FindAttachmentBySlotName( "Legs" );
+		if ( itemClothing )
+			SetRandomHealth( itemClothing );
+		
+		itemClothing = player.FindAttachmentBySlotName( "Feet" );
+	}
+};
+
+Mission CreateCustomMission(string path)
+{
+	return new CustomMission();
+}
