@@ -2600,9 +2600,6 @@
 		<attachments chance="1.00">
 			<item name="HatchbackTrunk" chance="0.20" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
-		</attachments>
 	</type>
 	<type name="OffroadHatchback_Blue">
 		<attachments chance="1.00">
@@ -2647,9 +2644,6 @@
 		<attachments chance="1.00">
 			<item name="HatchbackTrunk_Blue" chance="0.20" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
-		</attachments>
 	</type>
 	<type name="OffroadHatchback_White">
 		<attachments chance="1.00">
@@ -2693,9 +2687,6 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="HatchbackTrunk_White" chance="0.20" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 	</type>
 	<!-- -->
@@ -2745,9 +2736,6 @@
 		<attachments chance="1.00">
 			<item name="CivSedanTrunk" chance="0.20" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
-		</attachments>
 	</type>
 	<type name="CivilianSedan_Wine">
 		<attachments chance="1.00">
@@ -2795,9 +2783,6 @@
 		<attachments chance="1.00">
 			<item name="CivSedanTrunk_Wine" chance="0.20" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
-		</attachments>
 	</type>
 	<type name="CivilianSedan_Black">
 		<attachments chance="1.00">
@@ -2844,9 +2829,6 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CivSedanTrunk_Black" chance="0.20" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 	</type>
 	<!-- -->
@@ -2896,9 +2878,6 @@
 		<attachments chance="1.00">
 			<item name="Hatchback_02_Trunk" chance="0.20" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
-		</attachments>
 	</type>
 	<type name="Hatchback_02_Black">
 		<attachments chance="1.00">
@@ -2946,9 +2925,6 @@
 		<attachments chance="1.00">
 			<item name="Hatchback_02_Trunk_Black" chance="0.20" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
-		</attachments>
 	</type>
 	<type name="Hatchback_02_Blue">
 		<attachments chance="1.00">
@@ -2995,9 +2971,6 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Hatchback_02_Trunk_Blue" chance="0.20" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 	</type>
 	<!-- -->
@@ -3047,9 +3020,6 @@
 		<attachments chance="1.00">
 			<item name="Sedan_02_Trunk" chance="0.20" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
-		</attachments>
 	</type>
 	<type name="Sedan_02_Red">
 		<attachments chance="1.00">
@@ -3096,9 +3066,6 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Sedan_02_Trunk_Red" chance="0.20" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Sedan_02_Grey">
@@ -3147,9 +3114,6 @@
 		<attachments chance="1.00">
 			<item name="Sedan_02_Trunk_Grey" chance="0.20" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
-		</attachments>
 	</type>
 	<type name="Truck_01_Covered">
 		<attachments chance="1.00">
@@ -3193,9 +3157,6 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Truck_01_Door_2_1" chance="0.40" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Truck_01_Covered_Blue">
@@ -3241,9 +3202,6 @@
 		<attachments chance="1.00">
 			<item name="Truck_01_Door_2_1_Blue" chance="0.50" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
-		</attachments>
 	</type>
 	<type name="Truck_01_Covered_Orange">
 		<attachments chance="1.00">
@@ -3287,9 +3245,6 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Truck_01_Door_2_1_Orange" chance="0.50" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 	</type>
 <!--
