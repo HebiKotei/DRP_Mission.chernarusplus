@@ -479,10 +479,10 @@
         <usage name="Military"/>
     </type>
     <type name="AmmoBox_00buck_10rnd">
-        <nominal>60</nominal>
+        <nominal>80</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>45</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -494,9 +494,6 @@
         <usage name="Village"/>
 		<usage name="Farm" />
 		<usage name="Coast"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="AmmoBox_12gaRubberSlug_10Rnd">
         <nominal>40</nominal>
@@ -511,12 +508,13 @@
         <usage name="Police"/>
 		<usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Coast"/>
     </type>
     <type name="AmmoBox_12gaSlug_10Rnd">
-        <nominal>60</nominal>
+        <nominal>80</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>45</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -528,9 +526,6 @@
         <usage name="Village"/>
 		<usage name="Farm"/>
 		<usage name="Coast"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="AmmoBox_22_50Rnd">
         <nominal>55</nominal>
@@ -657,14 +652,13 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <usage name="Coast"/>
     </type>
     <type name="AmmoBox_556x45_20Rnd">
-        <nominal>25</nominal>
+        <nominal>45</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>25</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -672,8 +666,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
 		<usage name="Coast"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<usage name="Town"/>
     </type>
     <type name="AmmoBox_762x39Tracer_20Rnd">
         <nominal>7</nominal>
@@ -716,8 +709,8 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <usage name="Coast"/>
+        <usage name="Hunting"/>
     </type>
     <type name="AmmoBox_762x54_20Rnd">
         <nominal>65</nominal>
@@ -734,9 +727,6 @@
 		<usage name="Village"/>
 		<usage name="Town"/>
 		<usage name="Coast"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="AmmoBox_9x19_25rnd">
         <nominal>40</nominal>
@@ -947,10 +937,10 @@
         <usage name="Military"/>
     </type>
     <type name="Ammo_556x45">
-        <nominal>70</nominal>
+        <nominal>80</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>50</min>
+        <min>60</min>
         <quantmin>10</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -961,9 +951,6 @@
 		<usage name="Town"/>
         <usage name="Village"/>
 		<usage name="Coast"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="Ammo_556x45Tracer">
         <nominal>20</nominal>
@@ -977,9 +964,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<usage name="Coast"/>
+
     </type>
     <type name="Ammo_762x39">
         <nominal>90</nominal>
@@ -1031,9 +1017,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="Hunting"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <usage name="Coast"/>
     </type>
     <type name="Ammo_762x54Tracer">
         <nominal>20</nominal>
@@ -1047,9 +1031,7 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <usage name="Coast"/>
     </type>
     <type name="Ammo_9x19">
         <nominal>80</nominal>
@@ -10234,19 +10216,17 @@
         <value name="Tier4"/>
     </type>
     <type name="Mag_AK74_30Rnd">
-        <nominal>20</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>20</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <usage name="Coast"/>
     </type>
     <type name="Mag_AK74_45Rnd">
         <nominal>8</nominal>
@@ -10302,10 +10282,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Mag_Aug_30Rnd">
-        <nominal>6</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>3</min>
+        <min>0</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -10316,46 +10296,43 @@
         <value name="Tier4"/>
     </type>
     <type name="Mag_CMAG_10Rnd">
-        <nominal>0</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>10</quantmin>
-        <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
-    <type name="Mag_CMAG_20Rnd">
-        <nominal>8</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>5</min>
-        <quantmin>5</quantmin>
-        <quantmax>50</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-    </type>
-    <type name="Mag_CMAG_30Rnd">
         <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>5</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Coast"/>
+		<usage name="Hunting"/>
+    </type>
+    <type name="Mag_CMAG_20Rnd">
+        <nominal>20</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>25</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Coast"/>
+		<usage name="Hunting"/>
+    </type>
+    <type name="Mag_CMAG_30Rnd">
+        <nominal>10</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>5</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <usage name="Coast"/>
     </type>
     <type name="Mag_CMAG_40Rnd">
         <nominal>8</nominal>
@@ -10583,7 +10560,7 @@
         <usage name="Military"/>
     </type>
     <type name="Mag_STANAG_30Rnd">
-        <nominal>40</nominal>
+        <nominal>30</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>25</min>
@@ -10593,7 +10570,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
-        <usage name="Coast"/>
     </type>
     <type name="Mag_STANAG_60Rnd">
         <nominal>10</nominal>
@@ -19316,9 +19292,6 @@
         <category name="weapons"/>
         <usage name="Military"/>
 		<usage name="Coast"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
 	 <type name="HRW_KS23">
         <nominal>25</nominal>
@@ -24496,12 +24469,12 @@
         <usage name="Military"/>
     </type>
 		 <type name="MassG18Mag">
-        <nominal>10</nominal>
+        <nominal>15</nominal>
         <lifetime>21600</lifetime>
         <restock>0</restock>
-        <min>5</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
+        <min>10</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
