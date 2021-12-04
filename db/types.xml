@@ -10541,10 +10541,10 @@
         <value name="Tier3"/>
     </type>
     <type name="Mag_Ruger1022_15Rnd">
-        <nominal>25</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -10556,10 +10556,10 @@
         <value name="Tier2"/>
     </type>
     <type name="Mag_Ruger1022_30Rnd">
-        <nominal>25</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>5</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -10583,10 +10583,10 @@
         <usage name="Military"/>
     </type>
     <type name="Mag_STANAG_30Rnd">
-        <nominal>30</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>25</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -13521,10 +13521,10 @@
         <usage name="Farm"/>
     </type>
     <type name="Ruger1022">
-        <nominal>35</nominal>
+        <nominal>25</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>25</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -19363,13 +19363,13 @@
         <usage name="Hunting"/>
 		<usage name="Coast"/>
 		<usage name="Town"/>
-		<usage name="Military">
+		<usage name="Military"/>
     </type>
 <type name="HRW_M16M_Raw">
         <nominal>60</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>40</min>
+        <min>45</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -19378,6 +19378,7 @@
         <usage name="Military"/>
 	    <usage name="Coast"/>
 		<usage name="Town"/>
+		<usage name="Hunting"/>
     </type>
 	  <type name="HRW_M1014">
         <nominal>40</nominal>
