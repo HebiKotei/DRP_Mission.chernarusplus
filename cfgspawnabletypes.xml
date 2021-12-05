@@ -3694,5 +3694,373 @@
 		</cargo>
 	</type>
 
+<!-- Expansion Vehicles -->
+<type name="ExpansionUAZ">
+		<attachments chance="1.00">
+			<item name="ExpansionUAZWheel" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZWheel" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZWheel" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZWheel" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorDriver" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorCoDriver" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorCargo1" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorCargo2" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Fabric" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorHood" chance="1" />
+        </attachments>
+		<cargo chance="1">
+		<item name="CanisterGasoline"/>
+		</cargo>
+	</type>
+	
+	<type name="ExpansionUAZCargoRoofless">
+		<attachments chance="1.00">
+			<item name="ExpansionUAZWheel" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZWheel" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZWheel" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZWheel" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorDriver" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorCoDriver" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorCargo1" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorCargo2" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionUAZDoorHood" chance="1" />
+        </attachments>
+		<cargo chance="1">
+		<item name="CanisterGasoline"/>
+		</cargo>
+	</type>
+	
+		<type name="ExpansionBus">
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheel" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheel" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheelDouble" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheelDouble" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="GlowPlug" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1" />
+        </attachments>
+		<cargo chance="1">
+		<item name="CanisterGasoline"/>
+		</cargo>
+	</type>
+			<type name="ExpansionBus_Weeb">
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheel" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheel" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheelDouble" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheelDouble" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="GlowPlug" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1" />
+        </attachments>
+		<cargo chance="1">
+		<item name="CanisterGasoline"/>
+		</cargo>
+	</type>
+			<type name="ExpansionBus_Red">
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheel" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheel" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheelDouble" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionBusWheelDouble" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="TruckBattery" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="GlowPlug" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1" />
+        </attachments>
+		<cargo chance="1">
+		<item name="CanisterGasoline"/>
+		</cargo>
+	</type>
+	
+	
+	<type name="ExpansionGyrocopter">
+			<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1" />
+        </attachments>
+		<cargo chance="1">
+		<item name="CanisterGasoline"/>
+		</cargo>
+	</type>	
+		<type name="ExpansionMh6_Wasp">
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2" chance="1" />
+        </attachments>
+			<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1" />
+        </attachments>
+		<cargo chance="1">
+		<item name="CanisterGasoline"/>
+		</cargo>
+	</type>
+				<type name="ExpansionMh6_Vrana">
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2" chance="1" />
+        </attachments>
+			<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1" />
+        </attachments>
+		<cargo chance="1">
+		<item name="CanisterGasoline"/>
+		</cargo>
+	</type>
+				<type name="ExpansionMh6_Resistance">
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_1" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_1_2" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_1" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Mh6_Door_2_2" chance="1" />
+        </attachments>
+			<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1" />
+        </attachments>
+		<cargo chance="1">
+		<item name="CanisterGasoline"/>
+		</cargo>
+	</type>
+					<type name="ExpansionUh1h_Resistance">
+		<attachments chance="1.00">
+			<item name="Expansion_Uh1h_Door_1_1_Civilian" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="Expansion_Uh1h_Door_1_2_Civilian" chance="1" />
+        </attachments>
+			<attachments chance="1.00">
+			<item name="ExpansionHelicopterBattery" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionIgniterPlug" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="ExpansionHydraulicHoses" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="1" />
+        </attachments>
+		<cargo chance="1">
+		<item name="CanisterGasoline"/>
+		</cargo>
+	</type>
+	
+						<type name="ExpansionZodiacBoat_Orange">
+	<attachments chance="1.00">
+			<item name="TruckBattery" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="GlowPlug" chance="1" />
+        </attachments>
+		<cargo chance="1">
+		<item name="CanisterGasoline"/>
+		</cargo>
+	</type>
+	<type name="ExpansionZodiacBoat_Green">
+	<attachments chance="1.00">
+			<item name="TruckBattery" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="GlowPlug" chance="1" />
+        </attachments>
+		<cargo chance="1">
+		<item name="CanisterGasoline"/>
+		</cargo>
+	</type>
+	<type name="ExpansionZodiacBoat_Black">
+	<attachments chance="1.00">
+			<item name="TruckBattery" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="GlowPlug" chance="1" />
+        </attachments>
+		<cargo chance="1">
+		<item name="CanisterGasoline"/>
+		</cargo>
+	</type>
+	<type name="ExpansionUtilityBoat">
+	<attachments chance="1.00">
+			<item name="TruckBattery" chance="1" />
+        </attachments>
+		<attachments chance="1.00">
+			<item name="GlowPlug" chance="1" />
+        </attachments>
+		<cargo chance="1">
+		<item name="CanisterGasoline"/>
+		</cargo>
+	</type>
+
 
 </spawnabletypes>
