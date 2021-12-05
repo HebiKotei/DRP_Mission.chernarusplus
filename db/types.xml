@@ -16615,8 +16615,10 @@
         <category name="weapons"/>
         <usage name="Military"/>
 		<usage name="Coast" />
-        <value name="Tier2"/>
+        <value name="Tier1"/>
+		<value name="Tier2"/>
         <value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
     <type name="USMCJacket_Desert">
         <nominal>3</nominal>
@@ -19353,6 +19355,10 @@
         <category name="weapons"/>
         <usage name="Military"/>
 		<usage name="Coast"/>
+		        <value name="Tier1"/>
+		<value name="Tier2"/>
+        <value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
 	 <type name="HRW_KS23">
         <nominal>25</nominal>
@@ -19368,6 +19374,10 @@
 		<usage name="Coast"/>
 		<usage name="Village"/>
 		<usage name="Town"/>
+		        <value name="Tier1"/>
+		<value name="Tier2"/>
+        <value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
     <type name="HRW_KS23_Sawed">
         <nominal>25</nominal>
@@ -19399,6 +19409,10 @@
 		<usage name="Farm"/>
 		<usage name="Military"/>
 		<usage name="Lunapark"/>
+		        <value name="Tier1"/>
+		<value name="Tier2"/>
+        <value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
 <type name="HRW_M16M_Raw">
         <nominal>25</nominal>
@@ -19415,6 +19429,10 @@
 		<usage name="Town"/>
 		<usage name="Hunting"/>
 		<usage name="Lunapark"/>
+		        <value name="Tier1"/>
+		<value name="Tier2"/>
+        <value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
 	  <type name="HRW_M1014">
         <nominal>40</nominal>
@@ -19656,9 +19674,14 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
-        <usage name="Police"/>
+        <usage name="Military"/>
+		<usage name="Police"/>
 		<usage name="Town"/>
 		<usage name="Lunapark"/>
+		        <value name="Tier1"/>
+		<value name="Tier2"/>
+        <value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
 	   <type name="HRW_TOZ">
         <nominal>40</nominal>
@@ -19738,6 +19761,10 @@
         <usage name="Coast"/>
         <usage name="Hunting"/>
 		<usage name="Lunapark"/>
+		        <value name="Tier1"/>
+		<value name="Tier2"/>
+        <value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
   <type name="HRW_Mag_MAS49_10Rnd">
         <nominal>0</nominal>
@@ -19830,6 +19857,10 @@
         <usage name="Police"/>
 		<usage name="Military"/>
 		<usage name="Lunapark"/>
+		        <value name="Tier1"/>
+		<value name="Tier2"/>
+        <value name="Tier3"/>
+		<value name="Tier4"/>
     </type>
  <type name="HRW_Mag_USP_9x19_15Rnd">
         <nominal>30</nominal>
@@ -21406,6 +21437,7 @@
         <usage name="Hunting"/>
 		        <usage name="Village"/>
 		<usage name="Coast"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Slouch_Hat_Brown">
         <nominal>10</nominal>
@@ -21564,6 +21596,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
 	<type name="beanie_green">
         <nominal>15</nominal>
@@ -21577,6 +21610,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
 	<type name="beanie_blackred">
         <nominal>15</nominal>
@@ -21590,6 +21624,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
 	<type name="beanie_purple">
         <nominal>15</nominal>
@@ -21616,6 +21651,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
 	<type name="beanie_yellow">
         <nominal>15</nominal>
@@ -21629,6 +21665,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
 	<type name="beanie_white">
         <nominal>15</nominal>
@@ -21642,6 +21679,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="ushanka_red">
         <nominal>15</nominal>
@@ -21655,6 +21693,7 @@
         <category name="clothes"/>
         <usage name="Village"/>
 		<usage name="Town"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="ushanka_greenlight">
         <nominal>15</nominal>
@@ -21668,6 +21707,7 @@
         <category name="clothes"/>
         <usage name="Village"/>
         <usage name="Town"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="ushanka_blackfurw">
         <nominal>15</nominal>
@@ -21681,6 +21721,7 @@
         <category name="clothes"/>
         <usage name="Village"/>
 		<usage name="Town"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="ushanka_beige">
         <nominal>15</nominal>
@@ -21694,6 +21735,7 @@
         <category name="clothes"/>
         <usage name="Village"/>
 		<usage name="Town"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="ushanka_flt">
         <nominal>15</nominal>
@@ -21707,6 +21749,7 @@
         <category name="clothes"/>
         <usage name="Village"/>
         <usage name="Town"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="ushanka_white">
         <nominal>15</nominal>
@@ -21720,6 +21763,7 @@
         <category name="clothes"/>
         <usage name="Village"/>
         <usage name="Town"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="ushanka_whiteblackfur">
         <nominal>15</nominal>
@@ -21733,6 +21777,7 @@
         <category name="clothes"/>
         <usage name="Village"/>
         <usage name="Town"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="ushanka_woodland">
         <nominal>15</nominal>
@@ -21746,6 +21791,7 @@
         <category name="clothes"/>
         <usage name="Village"/>
         <usage name="Town"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="BaseballCap_greywhite">
         <nominal>15</nominal>
@@ -21761,6 +21807,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
 		<usage name="Town"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="BaseballCap_whitegreen">
         <nominal>15</nominal>
@@ -21775,6 +21822,7 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="BaseballCap_bluewhite">
         <nominal>15</nominal>
@@ -21789,6 +21837,7 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="BaseballCap_redblack">
         <nominal>15</nominal>
@@ -21803,6 +21852,7 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="BaseballCap_redwhite">
         <nominal>15</nominal>
@@ -21817,6 +21867,7 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="BaseballCap_blackwhite">
         <nominal>15</nominal>
@@ -21831,6 +21882,7 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="BaseballCap_livonia">
         <nominal>15</nominal>
@@ -21845,6 +21897,7 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="CowboyHat_blackbrown">
         <nominal>15</nominal>
@@ -21860,6 +21913,7 @@
         <usage name="Village"/>
         <usage name="Hunting"/>
         <usage name="Town"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="CowboyHat_white">
         <nominal>15</nominal>
@@ -21875,6 +21929,7 @@
         <usage name="Village"/>
         <usage name="Hunting"/>
         <usage name="Town"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="CowboyHat_grey">
         <nominal>15</nominal>
@@ -21890,6 +21945,7 @@
         <usage name="Village"/>
         <usage name="Hunting"/>
         <usage name="Town"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="CowboyHat_darkgreen">
         <nominal>15</nominal>
@@ -21905,6 +21961,7 @@
         <usage name="Village"/>
         <usage name="Hunting"/>
 <usage name="Town"/>
+<usage name="Lunapark"/>
     </type>
     <type name="CowboyHat_blue">
         <nominal>15</nominal>
@@ -21920,6 +21977,7 @@
         <usage name="Village"/>
         <usage name="Hunting"/>
         <usage name="Town"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="RadarCap_white">
         <nominal>15</nominal>
@@ -21936,6 +21994,7 @@
         <usage name="Farm"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="PoliceCap_Livonia">
         <nominal>0</nominal>
@@ -21974,6 +22033,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="ChestHolster_green">
         <nominal>20</nominal>
@@ -21987,6 +22047,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="ChestHolster_black">
         <nominal>20</nominal>
@@ -22000,6 +22061,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Shirt_checkHero">
         <nominal>25</nominal>
@@ -22013,6 +22075,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Shirt_StripedYellow">
         <nominal>25</nominal>
@@ -22026,6 +22089,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Shirt_Hawaiian1">
         <nominal>25</nominal>
@@ -22039,6 +22103,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Shirt_Hawaiian2">
         <nominal>25</nominal>
@@ -22052,6 +22117,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="HikingJacket_greenalt">
         <nominal>15</nominal>
@@ -22065,6 +22131,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="HikingJacket_whitegreen">
         <nominal>15</nominal>
@@ -22078,6 +22145,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="HikingJacket_whiteblue">
         <nominal>15</nominal>
@@ -22091,6 +22159,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="HikingJacket_whiteblack">
         <nominal>15</nominal>
@@ -22104,6 +22173,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="HikingJacket_blackyellow">
         <nominal>15</nominal>
@@ -22117,6 +22187,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="HikingJacket_blackpink">
         <nominal>15</nominal>
@@ -22130,6 +22201,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
 
     </type>
     <type name="HikingJacket_blackblue">
@@ -22144,6 +22216,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="HikingJacket_orangegrey">
         <nominal>15</nominal>
@@ -22157,6 +22230,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="RidersJacket_BlackRed">
         <nominal>0</nominal>
@@ -22181,6 +22255,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
        <usage name="Town"/>
+	   <usage name="Lunapark"/>
 <usage name="Village"/>
     </type>
     <type name="RidersJacket_Brown">
@@ -22194,6 +22269,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
        <usage name="Town"/>
+	   <usage name="Lunapark"/>
 <usage name="Village"/>
     </type>
     <type name="RidersJacket_Grey">
@@ -22207,6 +22283,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Town"/>
+		<usage name="Lunapark"/>
 <usage name="Village"/>
     </type>
     <type name="HuntingJacket_White">
@@ -22315,6 +22392,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Sweater_greyblue">
         <nominal>15</nominal>
@@ -22328,6 +22406,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Sweater_grey2tone">
         <nominal>15</nominal>
@@ -22341,6 +22420,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Sweater_green2tone">
         <nominal>15</nominal>
@@ -22354,6 +22434,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Sweater_bluestriped">
         <nominal>15</nominal>
@@ -22367,6 +22448,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Sweater_festive">
         <nominal>15</nominal>
@@ -22380,6 +22462,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="QuiltedJacket_WedgeWhite">
         <nominal>15</nominal>
@@ -22393,6 +22476,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="QuiltedJacket_WedgeOrange">
         <nominal>15</nominal>
@@ -22406,6 +22490,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="QuiltedJacket_WedgeGreen">
         <nominal>15</nominal>
@@ -22419,6 +22504,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="QuiltedJacket_WedgeBlue">
         <nominal>15</nominal>
@@ -22432,6 +22518,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="QuiltedJacket_BlueOrange">
         <nominal>15</nominal>
@@ -22445,6 +22532,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="BomberJacket_blackblue">
         <nominal>10</nominal>
@@ -22458,6 +22546,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="BomberJacket_greyblack">
         <nominal>10</nominal>
@@ -22471,6 +22560,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="BomberJacket_red">
         <nominal>10</nominal>
@@ -22484,6 +22574,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="LabCoat_Livonia">
         <nominal>0</nominal>
@@ -22510,6 +22601,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="School"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="MiniDress_Floraldark">
         <nominal>15</nominal>
@@ -22524,6 +22616,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="School"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="MiniDress_Cherry">
         <nominal>15</nominal>
@@ -22538,6 +22631,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="School"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="MiniDress_Purple">
         <nominal>15</nominal>
@@ -22552,6 +22646,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="School"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="MiniDress_Green">
         <nominal>15</nominal>
@@ -22566,6 +22661,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="School"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="PoliceJacket_Livonia">
         <nominal>0</nominal>
@@ -22603,6 +22699,7 @@
         <category name="clothes"/>
         <usage name="Industrial"/>
         <usage name="Farm"/>
+		<usage name="Lunapark"/>
 <usage name="Town"/>
 <usage name="Village"/>
     </type>
@@ -22698,6 +22795,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Skirt_Black">
         <nominal>25</nominal>
@@ -22711,6 +22809,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Skirt_darkblue">
         <nominal>15</nominal>
@@ -22724,6 +22823,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="HikingBoots_white">
         <nominal>15</nominal>
@@ -22738,6 +22838,7 @@
         <tag name="floor"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="TaloonBag_Black">
         <nominal>15</nominal>
@@ -22751,6 +22852,7 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="TaloonBag_Red">
         <nominal>15</nominal>
@@ -22764,6 +22866,7 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="TaloonBag_Yellow">
         <nominal>15</nominal>
@@ -22777,6 +22880,7 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="TaloonBag_Woodland">
         <nominal>15</nominal>
@@ -22790,6 +22894,7 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="TaloonBag_Winter">
         <nominal>15</nominal>
@@ -22803,6 +22908,7 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="TaloonBag_Navy">
         <nominal>15</nominal>
@@ -22816,6 +22922,7 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="MountainBag_Winter">
         <nominal>15</nominal>
@@ -22940,6 +23047,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="CivilianBelt_grey">
         <nominal>15</nominal>
@@ -22953,6 +23061,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="CivilianBelt_red">
         <nominal>15</nominal>
@@ -22966,6 +23075,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Hoodie_Sport1">
         <nominal>15</nominal>
@@ -23005,6 +23115,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="ThermalShirt_Red">
         <nominal>15</nominal>
@@ -23018,6 +23129,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="ThermalShirt_Blue">
         <nominal>15</nominal>
@@ -23031,6 +23143,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="CanvasPants_black">
         <nominal>15</nominal>
@@ -23044,6 +23157,7 @@
         <category name="clothes"/>
         <usage name="Town"/>
 <usage name="Village"/>
+<usage name="Lunapark"/>
     </type>
     <type name="Jeans_Wounded">
         <nominal>20</nominal>
@@ -23056,6 +23170,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Town"/>
+		<usage name="Lunapark"/>
 <usage name="Village"/>
     </type>
     <type name="Jeans_Acidwash">
@@ -23069,6 +23184,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Town"/>
+		<usage name="Lunapark"/>
 <usage name="Village"/>
     </type>
     <type name="NioshFaceMask_black">
@@ -23168,6 +23284,7 @@
         <usage name="Farm"/>
 		<usage name="Town"/>
 <usage name="Village"/>
+<usage name="Lunapark"/>
     </type>
     <type name="Wellies_yellow">
         <nominal>15</nominal>
@@ -23183,6 +23300,7 @@
         <usage name="Farm"/>
 		<usage name="Town"/>
 <usage name="Village"/>
+<usage name="Lunapark"/>
     </type>
     <type name="Wellies_pink">
         <nominal>15</nominal>
@@ -23198,6 +23316,7 @@
         <usage name="Farm"/>
 		<usage name="Town"/>
 <usage name="Village"/>
+<usage name="Lunapark"/>
     </type>
     <type name="HuntingBag_black">
         <nominal>15</nominal>
@@ -23240,6 +23359,7 @@
         <usage name="Hunting"/>
 		<usage name="Town"/>
 <usage name="Village"/>
+<usage name="Lunapark"/>
     </type>
     <type name="HuntingBag_woodland">
         <nominal>15</nominal>
@@ -23254,6 +23374,7 @@
         <usage name="Hunting"/>
 		<usage name="Town"/>
 <usage name="Village"/>
+<usage name="Lunapark"/>
     </type>
     <type name="DryBag_brown">
         <nominal>10</nominal>
@@ -23293,6 +23414,7 @@
         <category name="clothes"/>
         <tag name="floor"/>
         <usage name="Military"/>
+		<usage name="Lunapark"/>
     </type>
 <!-- Mass's Mod -->
 
@@ -23309,6 +23431,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
 		<usage name="Military"/>
+		<usage name="Lunapark"/>
     </type>
 	 <type name="MassSlingBagDesert">
         <nominal>20</nominal>
@@ -23323,6 +23446,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
 		<usage name="Military"/>
+		<usage name="Lunapark"/>
     </type>
 	 <type name="MassSlingBagGorka">
         <nominal>15</nominal>
@@ -23337,6 +23461,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
 		<usage name="Military"/>
+		<usage name="Lunapark"/>
     </type>
 	 <type name="MassMolleBagBlack">
         <nominal>25</nominal>
@@ -23352,6 +23477,7 @@
         <usage name="Village"/>
 		<usage name="Military"/>
 		<usage name="Hunting"/>
+		<usage name="Lunapark"/>
     </type>
 	 <type name="MassMolleBagDesert">
         <nominal>25</nominal>
@@ -23396,6 +23522,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
 		<usage name="Military"/>
+		<usage name="Lunapark"/>
     </type>
 		 <type name="Massbag2">
         <nominal>20</nominal>
@@ -23410,6 +23537,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
 		<usage name="Military"/>
+		<usage name="Lunapark"/>
     </type>
 		 <type name="Massbag3">
         <nominal>20</nominal>
@@ -23424,6 +23552,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
 		<usage name="Military"/>
+		<usage name="Lunapark"/>
     </type>
 		 <type name="Massbag4">
         <nominal>20</nominal>
@@ -23438,6 +23567,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
 		<usage name="Military"/>
+		<usage name="Lunapark"/>
     </type>
 		 <type name="Massmedbag">
         <nominal>10</nominal>
@@ -23536,6 +23666,7 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
 	 <type name="MassDetectiveCoat_Black">
         <nominal>15</nominal>
@@ -23549,6 +23680,7 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
 	 <type name="MassPlateCarrierHolster_Black">
         <nominal>15</nominal>
@@ -27732,18 +27864,16 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
     <type name="clownmask_mung">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Village"/>
+<usage name="Lunapark"/>
     </type>
     <type name="strawhat_mung">
         <nominal>15</nominal>
@@ -27760,17 +27890,16 @@
         <usage name="Village"/>
     </type>
     <type name="jesterhat_mung">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+    <usage name="Lunapark"/>
     </type>
     <type name="bandana_mung">
         <nominal>15</nominal>
@@ -27795,8 +27924,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+<usage name="Lunapark"/>
     </type>
     <type name="ballgrill_mung">
         <nominal>20</nominal>
@@ -27912,8 +28040,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+<usage name="Lunapark"/>
     </type>
     <type name="weldinggoggles_mung">
         <nominal>15</nominal>
@@ -27928,6 +28055,7 @@
         <usage name="Industrial"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="dappervest_mung">
         <nominal>5</nominal>
@@ -28100,8 +28228,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
 	<type name="cigarette_mung">
         <nominal>30</nominal>
@@ -28116,6 +28243,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
 		<usage name="Industrial"/>
+		<usage name="Lunapark"/>
     </type>
 	<type name="cigar_mung">
         <nominal>30</nominal>
@@ -28130,6 +28258,7 @@
         <usage name="Industrial"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
 	<type name="sherlockpipe_mung">
         <nominal>10</nominal>
@@ -28144,8 +28273,9 @@
         <usage name="Industrial"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
-	<type name="pickles_closed">
+	<type name="pickles_opened">
         <nominal>30</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
@@ -28158,6 +28288,7 @@
         <usage name="Industrial"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
 	<type name="Zippo_mung">
         <nominal>25</nominal>
@@ -28172,6 +28303,7 @@
         <usage name="Industrial"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="fannypack_pink_mung">
         <nominal>10</nominal>
@@ -28185,6 +28317,7 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
 	<type name="fannypack_black_mung">
         <nominal>15</nominal>
@@ -28198,6 +28331,7 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
 	<type name="fannypack_camo_mung">
         <nominal>15</nominal>
@@ -28211,6 +28345,7 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
 	<type name="fannypack_multi_mung">
         <nominal>15</nominal>
@@ -28224,6 +28359,7 @@
         <category name="containers"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
 	  <type name="Lennon_glasses_pink_mung">
         <nominal>20</nominal>
@@ -28239,6 +28375,7 @@
         <usage name="Military"/>
         <usage name="Police"/>
         <usage name="Town"/>
+		<usage name="Lunapark"/>
     </type>        
     <type name="Lennon_glasses_galaxy_mung">
         <nominal>20</nominal>
@@ -28253,6 +28390,7 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Lennon_glasses_black_mung">
         <nominal>20</nominal>
@@ -28267,6 +28405,7 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Lennon_glasses_blue_mung">
         <nominal>20</nominal>
@@ -28281,6 +28420,7 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Lennon_glasses_yellow_mung">
         <nominal>20</nominal>
@@ -28295,6 +28435,7 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Lennon_glasses_white_mung">
         <nominal>20</nominal>
@@ -28309,6 +28450,7 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Lunapark"/>
     </type>
 	    <type name="oillamp_mung">
         <nominal>15</nominal>
@@ -28349,6 +28491,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="School"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="simplebackpack_camoblack_mung">
         <nominal>25</nominal>
@@ -28363,6 +28506,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="School"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="simplebackpack_green_mung">
         <nominal>25</nominal>
@@ -28377,6 +28521,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="School"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="simplebackpack_redpink_mung">
         <nominal>25</nominal>
@@ -28391,6 +28536,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="School"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="simplebackpack_redyellow_mung">
         <nominal>25</nominal>
@@ -28405,6 +28551,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="School"/>
+		<usage name="Lunapark"/>
     </type>
 	 <type name="Gewehr43_mung">
         <nominal>35</nominal>
@@ -28419,6 +28566,7 @@
         <usage name="Military"/>
 		<usage name="Town"/>
 		<usage name="Coast"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Mag_gewehr43_10Rnd_mung">
         <nominal>35</nominal>
@@ -28433,6 +28581,7 @@
         <usage name="Military"/>
 		<usage name="Coast"/>
 		<usage name="Town"/>
+		<usage name="Lunapark"/>
     </type>
 	
 	
@@ -28646,6 +28795,318 @@
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
+	<!-- Cannabis Plus -->
+	 <type name="CP_CannabisSeedsPackSkunk">
+        <nominal>30</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>20</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Farm"/>
+        <usage name="Hunting"/>
+		<usage name="Lunapark"/>
+		<usage name="Coast"/>
+    </type>
+	<type name="CP_Plant_CannabisSkunk">
+        <lifetime>3888000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	<type name="CP_Plant_CannabisBlue">
+        <lifetime>3888000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	   <type name="CP_CannabisSeedsPackBlue">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Farm"/>
+        <usage name="Hunting"/>
+				<usage name="Lunapark"/>
+		<usage name="Coast"/>
+    </type>
+	 	<type name="CP_Plant_CannabisKush">
+        <lifetime>3888000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+   <type name="CP_CannabisSeedsPackKush">
+        <nominal>6</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Farm"/>
+        <usage name="Hunting"/>
+				<usage name="Lunapark"/>
+		<usage name="Coast"/>
+    </type>
+		<type name="CP_Plant_CannabisStardawg">
+        <lifetime>3888000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="CP_CannabisSeedsPackStardawg">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Farm"/>
+        <usage name="Hunting"/>
+				<usage name="Lunapark"/>
+		<usage name="Coast"/>
+    </type>
+		<type name="CP_Plant_Tobacco">
+        <lifetime>3888000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+		<type name="CP_TobaccoSeedsPack">
+        <nominal>33</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>25</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Farm"/>
+        <usage name="Hunting"/>
+				<usage name="Lunapark"/>
+		<usage name="Coast"/>
+    </type>
+	   <type name="CigarettePack_Chernamorka">
+        <nominal>15</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>1</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Medic"/>
+				<usage name="Lunapark"/>
+		<usage name="Coast"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+        <tag name="shelves"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="CigarettePack_Merkur">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>1</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Medic"/>
+				<usage name="Lunapark"/>
+		<usage name="Coast"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+        <tag name="shelves"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+    <type name="CigarettePack_Partyzanka">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>1</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+          <usage name="Medic"/>
+				<usage name="Lunapark"/>
+		<usage name="Coast"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+        <tag name="shelves"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+	   <type name="CP_RollingPapers">
+        <nominal>40</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>30</min>
+        <quantmin>1</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <usage name="Medic"/>
+				<usage name="Lunapark"/>
+		<usage name="Coast"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+        <tag name="shelves"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+    </type>
+		<type name="CP_Plant_CannabisFuture">
+        <lifetime>3888000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	  <type name="CP_CannabisSeedsPackFuture">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Farm"/>
+        <usage name="Hunting"/>
+				<usage name="Lunapark"/>
+		<usage name="Coast"/>
+    </type>
+		<type name="CP_Plant_CannabisS1">
+        <lifetime>3888000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	  <type name="CP_CannabisSeedsPackS1">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Farm"/>
+        <usage name="Hunting"/>
+				<usage name="Lunapark"/>
+		<usage name="Coast"/>
+    </type>
+	 	<type name="CP_Plant_CannabisNomad">
+        <lifetime>3888000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	<type name="CP_CannabisSeedsPackNomad">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Farm"/>
+        <usage name="Hunting"/>
+				<usage name="Lunapark"/>
+		<usage name="Coast"/>
+    </type>
+		<type name="CP_Plant_CannabisBlackFrost">
+        <lifetime>3888000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	 <type name="CP_CannabisSeedsPackBlackFrost">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="food"/>
+        <usage name="Farm"/>
+        <usage name="Hunting"/>
+				<usage name="Lunapark"/>
+		<usage name="Coast"/>
+    </type>
 	
+	<!-- Decay Items -->
+	<type name="Propital">
+        <nominal>30</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>20</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+    </type>
+	<type name="Ibuprofen">
+        <nominal>30</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>20</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+    </type>
+	<type name="AI2_Orange">
+        <nominal>10</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+    </type>
+	<type name="Grizzly_Medikit">
+        <nominal>5</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+    </type>
+	<type name="CmsKit">
+        <nominal>15</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>7</min>
+        <quantmin>20</quantmin>
+        <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="tools"/>
+        <tag name="shelves"/>
+        <usage name="Medic"/>
+    </type>
 	
 </types>
