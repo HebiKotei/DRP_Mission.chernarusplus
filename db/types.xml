@@ -19748,10 +19748,10 @@
     </type>
 	<!-- HellRetex Attachements Mags and Ammo -->
 	 <type name="HRW_Mag_M1A_Raw_10Rnd">
-        <nominal>30</nominal>
+        <nominal>35</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
-        <min>20</min>
+        <min>25</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -19761,10 +19761,7 @@
         <usage name="Coast"/>
         <usage name="Hunting"/>
 		<usage name="Lunapark"/>
-		        <value name="Tier1"/>
-		<value name="Tier2"/>
-        <value name="Tier3"/>
-		<value name="Tier4"/>
+
     </type>
   <type name="HRW_Mag_MAS49_10Rnd">
         <nominal>0</nominal>
@@ -28231,10 +28228,10 @@
 		<usage name="Lunapark"/>
     </type>
 	<type name="cigarette_mung">
-        <nominal>30</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -28246,10 +28243,10 @@
 		<usage name="Lunapark"/>
     </type>
 	<type name="cigar_mung">
-        <nominal>30</nominal>
+        <nominal>0</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
