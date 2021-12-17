@@ -932,8 +932,6 @@
 	</type>
 	<type name="ZmbM_usSoldier_Heavy_Woodland">
 		<cargo preset="foodArmy" />		
-		<attachments preset="HeavyArmorArmy" />
-		<attachments preset="HeavyHelmetArmy" />
 	</type>
 	
 	<!-- City -->

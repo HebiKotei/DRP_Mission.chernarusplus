@@ -467,10 +467,10 @@
         <usage name="Military"/>
     </type>
     <type name="AmmoBox">
-        <nominal>5</nominal>
+        <nominal>0</nominal>
         <lifetime>3888000</lifetime>
         <restock>1200</restock>
-        <min>2</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -655,10 +655,10 @@
         <usage name="Coast"/>
     </type>
     <type name="AmmoBox_556x45_20Rnd">
-        <nominal>40</nominal>
+        <nominal>45</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
-        <min>30</min>
+        <min>35</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -666,6 +666,8 @@
         <category name="weapons"/>
         <usage name="Military"/>
 		<usage name="Coast"/>
+		<usage name="Lunapark"/>
+		<usage name="Hunting"/>
 		<usage name="Town"/>
     </type>
     <type name="AmmoBox_762x39Tracer_20Rnd">
@@ -908,10 +910,10 @@
         <usage name="Village"/>
     </type>
     <type name="Ammo_545x39">
-        <nominal>65</nominal>
+        <nominal>55</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
-        <min>60</min>
+        <min>45</min>
         <quantmin>10</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -1058,6 +1060,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
+		<usage name="Coast"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Ammo_9x39AP">
         <nominal>12</nominal>
@@ -1071,8 +1075,8 @@
         <category name="weapons"/>
         <tag name="shelves"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<usage name="Coast"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="Ammo_Flare">
         <nominal>15</nominal>
@@ -1618,7 +1622,7 @@
         <usage name="School"/>
     </type>
     <type name="Aug">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
         <min>1</min>
@@ -1629,9 +1633,11 @@
         <category name="weapons"/>
         <usage name="Military"/>
 		<usage name="Coast"/>
+		<usage name="Lunapark"/>
+		<usage name="Hunting"/>
     </type>
     <type name="AugShort">
-        <nominal>3</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
         <min>1</min>
@@ -1642,6 +1648,8 @@
         <category name="weapons"/>
         <usage name="Military"/>
 		<usage name="Coast"/>
+		<usage name="Lunapark"/>
+		<usage name="Hunting"/>
     </type>
     <type name="AuriculariaMushroom">
         <nominal>0</nominal>
@@ -10525,10 +10533,10 @@
         <value name="Tier3"/>
     </type>
     <type name="Mag_STANAGCoupled_30Rnd">
-        <nominal>10</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>2700</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>5</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -10550,7 +10558,7 @@
         <usage name="Military"/>
     </type>
     <type name="Mag_STANAG_60Rnd">
-        <nominal>8</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
         <min>2</min>
@@ -10662,10 +10670,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Mag_VSS_10Rnd">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12607,18 +12615,18 @@
         <usage name="Military"/>
     </type>
     <type name="PlateCarrierVest">
-        <nominal>0</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
-        <min>0</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="clothes"/>
         <usage name="Military"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+<usage name="Lunapark"/>
+<usage name="Coast"/>
     </type>
     <type name="PleurotusMushroom">
         <nominal>0</nominal>
@@ -13535,7 +13543,7 @@
         <value name="Tier3"/>
     </type>
     <type name="SVD">
-        <nominal>2</nominal>
+        <nominal>1</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
         <min>1</min>
@@ -13544,10 +13552,13 @@
         <cost>100</cost>
         <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
         <category name="weapons"/>
-        <usage name="Military"/>
+          <usage name="Military"/>
+		<usage name="Coast"/>
+		<usage name="Lunapark"/>
+		<usage name="Hunting"/>
     </type>
     <type name="Saiga">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
         <min>1</min>
@@ -13563,10 +13574,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Saiga_Bttstck">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14908,10 +14919,10 @@
         <category name="tools"/>
     </type>
     <type name="SmallProtectorCase">
-        <nominal>50</nominal>
+        <nominal>30</nominal>
         <lifetime>3888000</lifetime>
         <restock>1200</restock>
-        <min>30</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -16764,7 +16775,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Military"/>
 		<usage name="Town"/>
@@ -16933,10 +16944,10 @@
         <usage name="Farm"/>
     </type>
     <type name="Whetstone">
-        <nominal>70</nominal>
+        <nominal>80</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
-        <min>50</min>
+        <min>60</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -16944,6 +16955,10 @@
         <category name="tools"/>
         <tag name="shelves"/>
         <usage name="Farm"/>
+		<usage name="Town"/>
+		<usage name="Hunting"/>
+		<usage name="Coast"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="WildboarPelt">
         <nominal>0</nominal>
@@ -23675,10 +23690,10 @@
 		<usage name="Lunapark"/>
     </type>
 	 <type name="MassPlateCarrierHolster_Black">
-        <nominal>15</nominal>
+        <nominal>25</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -23784,40 +23799,60 @@
         <usage name="Military"/>
     </type>
 	 <type name="MassPlateCarrier_PartizanM">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Military"/>
+			<usage name="Lunapark"/>
+		<usage name="Coast"/>
     </type>
 	 <type name="MassPlateCarrier_Black">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Military"/>
+		<usage name="Lunapark"/>
+		<usage name="Coast"/>
 		</type>
 	 <type name="MassPlateCarrier_Winter">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="containers"/>
         <usage name="Military"/>
+			<usage name="Lunapark"/>
+		<usage name="Coast"/>
+    </type>
+		 <type name="MassPlateCarrier_ODG">
+        <nominal>3</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Military"/>
+			<usage name="Lunapark"/>
+		<usage name="Coast"/>
     </type>
 	 <type name="MassSmershvestWW2complete">
         <nominal>10</nominal>
@@ -24575,10 +24610,10 @@
     </type>
 <!-- MuchDecos -->
 <type name="MD_Bed_Double_Kit">
-        <nominal>11</nominal>
+        <nominal>8</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24587,10 +24622,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Bed_Folding_Kit">
-        <nominal>11</nominal>
+        <nominal>8</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24599,10 +24634,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_BrownWardrobe_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24611,10 +24646,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_GreenWardrobe_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24623,10 +24658,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_OfficeChair_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24635,10 +24670,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_StudentChair_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24647,10 +24682,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_RedChair_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24659,10 +24694,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_LobbyChair_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24671,10 +24706,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_TentChair_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24683,10 +24718,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_WoodenChair_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24695,10 +24730,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_PaddedWoodenChair_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24707,10 +24742,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_KitchenChair_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24719,10 +24754,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Fence_PipeRailing_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24731,10 +24766,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Fence_PipeFenceSmall_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24743,10 +24778,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Fence_PipeFenceLarge_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24755,10 +24790,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Fence_WoodPole_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24767,10 +24802,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Fence_Vineyard_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24779,10 +24814,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Fence_Forest_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24791,10 +24826,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Fence_End_Forest_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24803,10 +24838,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Fence_WoodGrid_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24815,10 +24850,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Fence_End_WoodGrid_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24827,10 +24862,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Fence_MetalGrid_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24839,10 +24874,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Fence_End_MetalGrid_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24851,10 +24886,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Fence_Field_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24863,10 +24898,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Fence_End_Field_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24875,10 +24910,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Fence_Gate_Forest_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24887,10 +24922,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Gate_TallSliding_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24899,10 +24934,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Gate_ShortSliding_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24911,10 +24946,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Double_Gate_MetalFence1_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24923,10 +24958,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Double_Gate_MetalFence2_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24935,10 +24970,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Double_Gate_TinFence1_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24947,10 +24982,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Double_Gate_TinFence2_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25079,7 +25114,7 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Caravan_MRust_Kit">
-        <nominal>11</nominal>
+        <nominal>15</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
         <min>5</min>
@@ -25091,10 +25126,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Polytunnel_Kit">
-        <nominal>11</nominal>
+        <nominal>8</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25103,10 +25138,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Greenhouse_Kit">
-        <nominal>11</nominal>
+        <nominal>8</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25115,10 +25150,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Shed_M1_Kit">
-        <nominal>11</nominal>
+        <nominal>8</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25127,10 +25162,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Shed_M3_Kit">
-        <nominal>11</nominal>
+        <nominal>8</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25139,10 +25174,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Shed_M4_Kit">
-        <nominal>11</nominal>
+        <nominal>8</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25151,10 +25186,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Shed_W1_Kit">
-        <nominal>11</nominal>
+        <nominal>8</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25163,10 +25198,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Shed_W3_Kit">
-        <nominal>11</nominal>
+        <nominal>8</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25175,10 +25210,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Shed_W2_Kit">
-        <nominal>11</nominal>
+        <nominal>8</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25187,10 +25222,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Shed_W4_Kit">
-        <nominal>11</nominal>
+        <nominal>8</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25199,10 +25234,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Shed_W5_Kit">
-        <nominal>11</nominal>
+        <nominal>8</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25259,10 +25294,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_TeacherDesk_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25271,10 +25306,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_StudentDesk_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25283,10 +25318,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_LabDesk_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25295,10 +25330,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_CampTable_Small_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25307,10 +25342,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_CampTable_Long_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25319,10 +25354,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_TableDrawer_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25331,10 +25366,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_OfficeTable_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25343,10 +25378,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_ConferenceTable_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25355,10 +25390,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_OfficeDesk_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25367,10 +25402,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_KitchenCheckeredTable_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25379,10 +25414,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_KitchenTable_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25391,10 +25426,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_MarketTable_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25403,10 +25438,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_Medical_Tent_Large_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -25538,7 +25573,7 @@
         <usage name="Industrial"/>
     </type>
 	<type name="MD_CamonetShelter_RN_Kit">
-        <nominal>1</nominal>
+        <nominal>11</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
         <min>5</min>
@@ -25574,10 +25609,10 @@
         <usage name="Industrial"/>
     </type>
 		<type name="MD_Workbench_Kit">
-        <nominal>11</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26300,10 +26335,10 @@
 
 	
 	<type name="Msp_MoskvaFridge_Blue_Kit">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26312,10 +26347,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_MoskvaFridge_Cream_Kit">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26324,10 +26359,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_MoskvaFridge_Red_Kit">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26336,10 +26371,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_SovietOkaFridge_Kit">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26348,10 +26383,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_SnowballFridge_Kit">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26360,10 +26395,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_MilitaryCrate_Brown">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26373,10 +26408,10 @@
         <usage name="Military"/>
     </type>
 	<type name="Msp_MilitaryCrate_Green">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26386,10 +26421,10 @@
         <usage name="Military"/>
     </type>
 	<type name="Msp_MilitaryCrate_Grey">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26399,10 +26434,10 @@
         <usage name="Military"/>
     </type>
 	<type name="Msp_MilitaryCrate_Olive">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26412,10 +26447,10 @@
         <usage name="Military"/>
     </type>
 	<type name="Msp_MilitaryCrate_Tan">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26425,10 +26460,10 @@
         <usage name="Military"/>
     </type>
 	<type name="Msp_MedievalChest">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26437,10 +26472,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_TreasureChest">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26449,10 +26484,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_TackleBox">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26461,10 +26496,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_TackleBox_Black">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26473,10 +26508,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_StorageBox_Kit">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26485,10 +26520,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_MilitaryLocker_Kit">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26498,10 +26533,10 @@
         <usage name="Military"/>
     </type>
 	<type name="Msp_Locker_Kit">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26510,7 +26545,211 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_SoloLocker_Kit">
-        <nominal>15</nominal>
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_SoloLocker_Black_Kit">
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_SoloLocker_White_Kit">
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_SoloLocker_Green_Kit">
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_SoloLocker_Red_Kit">
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_SoloLocker_RedRusty_Kit">
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_SoloLocker_Yellow_Kit">
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_SoloLocker_YellowRusty_Kit">
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_OldLocker_Kit">
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_OldLocker_Green_Kit">
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_FourDoor_MilitaryLocker_Kit">
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_FourDoor_MilitaryLocker_Green_Kit">
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_RifleSafe_Kit">
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_RifleSafe_Grey_Kit">
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_RifleSafe_Green_Kit">
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_RifleSafe_Purple_Kit">
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_RifleSafe_Tan_Kit">
+        <nominal>6</nominal>
+        <lifetime>21600</lifetime>
+        <restock>1200</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+	<type name="Msp_ToolsBench_Blue_Kit">
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
         <min>5</min>
@@ -26521,215 +26760,11 @@
         <category name="containers"/>
         <usage name="Industrial"/>
     </type>
-	<type name="Msp_SoloLocker_Black_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
-	<type name="Msp_SoloLocker_White_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
-	<type name="Msp_SoloLocker_Green_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
-	<type name="Msp_SoloLocker_Red_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
-	<type name="Msp_SoloLocker_RedRusty_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
-	<type name="Msp_SoloLocker_Yellow_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
-	<type name="Msp_SoloLocker_YellowRusty_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
-	<type name="Msp_OldLocker_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
-	<type name="Msp_OldLocker_Green_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
-	<type name="Msp_FourDoor_MilitaryLocker_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
-	<type name="Msp_FourDoor_MilitaryLocker_Green_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
-	<type name="Msp_RifleSafe_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
-	<type name="Msp_RifleSafe_Grey_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
-	<type name="Msp_RifleSafe_Green_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
-	<type name="Msp_RifleSafe_Purple_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
-	<type name="Msp_RifleSafe_Tan_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
-	<type name="Msp_ToolsBench_Blue_Kit">
-        <nominal>15</nominal>
-        <lifetime>21600</lifetime>
-        <restock>1200</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="containers"/>
-        <usage name="Industrial"/>
-    </type>
 	<type name="Msp_ToolsBench_Grey_Kit">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26738,10 +26773,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_ToolsBench_Red_Kit">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26750,10 +26785,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Bookcase_Kit">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26762,10 +26797,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Mailbox">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26774,10 +26809,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_TrashCan">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26788,10 +26823,10 @@
 		<usage name="Town"/>
     </type>
 	<type name="Msp_Safe">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26813,10 +26848,10 @@
         <usage name="Medic"/>
     </type>
 	<type name="Msp_Wardrobe_Brown_Kit">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26825,10 +26860,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Wardrobe_Green_Kit">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26837,10 +26872,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Wardrobe_White_Kit">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26849,10 +26884,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_GunCabinet_Kit">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26861,10 +26896,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_GunRack_Kit">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26873,10 +26908,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_DoubleGunRack_Kit">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26885,10 +26920,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_FishingRodsRack_Kit">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26897,10 +26932,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_WoodenGunRack_Kit">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26909,10 +26944,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Gunwall_Kit">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26921,10 +26956,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_WaterBarrel_Plastic">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26933,10 +26968,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_WaterBarrel_Plastic_Yellow">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26945,10 +26980,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_WaterBarrel_Plastic_Green">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26957,10 +26992,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_WaterBarrel_Plastic_Red">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -26969,10 +27004,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_WaterBarrel_Plastic_Black">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27005,10 +27040,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Gazebo_Kit">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27017,10 +27052,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_StoneFireplace_Kit">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27029,10 +27064,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_EmptyPlanterBox">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27041,10 +27076,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_EmptyPlanterPot">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27053,10 +27088,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Greenhouse_Kit">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27065,10 +27100,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_GreenhouseWood_Kit">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27077,10 +27112,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Barrel_Donation">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27089,10 +27124,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Barrel_Donation_Ammo">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27101,10 +27136,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Barrel_Donation_Guns">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27113,10 +27148,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Barrel_Donation_Food">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27125,10 +27160,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Barrel_Donation_Medical">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27137,10 +27172,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Barrel_Donation_BloodONegative">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27317,7 +27352,7 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_SleepingBag_Green">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
         <min>5</min>
@@ -27329,7 +27364,7 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_SleepingBag_Blue">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
         <min>5</min>
@@ -27341,7 +27376,7 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_SleepingBag_LimeGreen">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
         <min>5</min>
@@ -27353,7 +27388,7 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_SleepingBag_Orange">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
         <min>5</min>
@@ -27365,7 +27400,7 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_SleepingBag_Purple">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
         <min>5</min>
@@ -27377,7 +27412,7 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_SleepingBag_Red">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
         <min>5</min>
@@ -27389,7 +27424,7 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Mattress_Blue">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
         <min>5</min>
@@ -27401,7 +27436,7 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Mattress_Green">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
         <min>5</min>
@@ -27413,7 +27448,7 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Mattress_Pink">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
         <min>5</min>
@@ -27425,7 +27460,7 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_Mattress_Yellow">
-        <nominal>15</nominal>
+        <nominal>10</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
         <min>5</min>
@@ -27437,10 +27472,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_DeskClock">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27449,10 +27484,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_WoodenTable_Kit">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27461,10 +27496,10 @@
         <usage name="Industrial"/>
     </type>
 	<type name="Msp_RoomDivider_Kit">
-        <nominal>15</nominal>
+        <nominal>7</nominal>
         <lifetime>21600</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -28582,6 +28617,11 @@
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
+		<type name="Msp_StorageBox">
+        <lifetime>3888000</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	
 	<type name="Msp_WoodenTable">
         <lifetime>3888000</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
@@ -28950,11 +28990,11 @@
         <value name="Tier3"/>
     </type>
 	   <type name="CP_RollingPapers">
-        <nominal>40</nominal>
+        <nominal>80</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>30</min>
-        <quantmin>1</quantmin>
+        <min>75</min>
+        <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
@@ -28964,8 +29004,7 @@
 		<usage name="Town"/>
 		<usage name="Village"/>
         <tag name="shelves"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
+
     </type>
 		<type name="CP_Plant_CannabisFuture">
         <lifetime>3888000</lifetime>
@@ -30425,5 +30464,26 @@
         <lifetime>3600</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
-	
+<!--Even More Doors-->
+					<type name="EvenMoreDoor">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+						<type name="EvenMoreDoor_Double">
+		<nominal>0</nominal>
+		<lifetime>3888000</lifetime>
+		<restock>0</restock>
+		<min>0</min>
+		<quantmin>-1</quantmin>
+		<quantmax>-1</quantmax>
+		<cost>100</cost>
+		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	</type>
+
 </types>
