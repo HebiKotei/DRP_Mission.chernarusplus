@@ -24,8 +24,7 @@ void main()
 	Hive ce = CreateHive();
 	if ( ce )
 		ce.InitOffline();
-	//Spawn Loot
-//GetCEApi().ExportProxyData(Vector(7500, GetGame().SurfaceY(7500, 7500), 7500), 20000);
+	
 
 	//DATE RESET AFTER ECONOMY INIT-------------------------
 	int year, month, day, hour, minute;
@@ -1619,6 +1618,9 @@ SpawnObject("Land_Ruin_HouseBig2", "3209.373535 208.514954 12657.015625", "136.7
 SpawnObject("Land_Ruin_HouseSmall1", "3800.377441 212.320740 12663.898438", "-78.499992 0.000000 0.000000");
 SpawnObject("Land_Wreck_Lada_Green", "2008.712402 249.888718 11363.135742", "-27.000000 -0.000000 -0.000000");
 SpawnObject("Land_Wreck_Ikarus", "2206.719238 265.842987 11004.700195", "36.999996 3.500000 -1.000000");
+
+//Spawn Loot
+//GetCEApi().ExportProxyData(Vector(7500, GetGame().SurfaceY(7500, 7500), 7500), 20000);
 }
 
 class CustomMission: MissionServer
