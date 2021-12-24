@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
   <event name="InfectedContainers1">
-        <nominal>20</nominal>
-        <min>10</min>
+        <nominal>50</nominal>
+        <min>30</min>
         <max>250</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
@@ -40,8 +40,8 @@
     </event>
 
  <event name="Himera1">
-        <nominal>3</nominal>
-        <min>2</min>
+        <nominal>10</nominal>
+        <min>5</min>
         <max>250</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
@@ -58,8 +58,8 @@
     </event>
 	
 	 <event name="BigTark1">
-        <nominal>5</nominal>
-        <min>3</min>
+        <nominal>10</nominal>
+        <min>5</min>
         <max>250</max>
         <lifetime>3</lifetime>
         <restock>0</restock>

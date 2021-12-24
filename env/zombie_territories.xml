@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <territory-type>
     <territory color="1285789462">
-        <zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7414.1" z="2660.72" r="70"/>
-		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7628.23" z="2933.44" r="70"/>
-		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7863.28" z="2926.37" r="70"/>
-		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7780.59" z="3014.01" r="70"/>
-		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="2666.19" z="1384.73" r="70"/>
-		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="6574.42" z="2447.45" r="70"/>
-		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7466.33" z="2707.07" r="70"/>
-    </territory>
+        <zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7414.1" z="2660.72" r="40"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7628.23" z="2933.44" r="40"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7863.28" z="2926.37" r="40"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7780.59" z="3014.01" r="40"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="2666.19" z="1384.73" r="40"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="6574.42" z="2447.45" r="40"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7466.33" z="2707.07" r="40"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7606.89" z="2925.63" r="40"/>
+    
+	</territory>
 	    <territory color="1299789462">
-        <zone name="Himera1" smin="0" smax="0" dmin="8" dmax="12" x="7484.44" z="2755.84" r="70"/>
-		<zone name="Himera1" smin="0" smax="0" dmin="8" dmax="12" x="6445.93" z="2321.76" r="70"/>
+        <zone name="Himera1" smin="0" smax="0" dmin="1" dmax="1" x="7484.44" z="2755.84" r="5"/>
+		<zone name="Himera1" smin="0" smax="0" dmin="1" dmax="1" x="6445.93" z="2321.76" r="5"/>
     </territory>
 		    <territory color="1298429462">
-        <zone name="BigTark1" smin="0" smax="0" dmin="8" dmax="12" x="8850.46" z="5513.37" r="70"/>
-		<zone name="BigTark1" smin="0" smax="0" dmin="8" dmax="12" x="10090.34" z="12663.60" r="70"/>
-		<zone name="BigTark1" smin="0" smax="0" dmin="8" dmax="12" x="7416.01" z="14701.15" r="70"/>
-		<zone name="BigTark1" smin="0" smax="0" dmin="8" dmax="12" x="1371.14" z="12910.99" r="70"/>
+        <zone name="BigTark1" smin="0" smax="0" dmin="1" dmax="1" x="8850.46" z="5513.37" r="5"/>
+		<zone name="BigTark1" smin="0" smax="0" dmin="1" dmax="1" x="10090.34" z="12663.60" r="5"/>
+		<zone name="BigTark1" smin="0" smax="0" dmin="1" dmax="1" x="7416.01" z="14701.15" r="5"/>
+		<zone name="BigTark1" smin="0" smax="0" dmin="1" dmax="1" x="1371.14" z="12910.99" r="5"/>
     </territory>	
 	
     <territory color="1136576269">
