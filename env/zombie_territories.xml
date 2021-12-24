@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <territory-type>
+    <territory color="1285789462">
+        <zone name="InfectedContainers1" smin="0" smax="0" dmin="8" dmax="12" x="7414.1" z="2660.72" r="70"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="8" dmax="12" x="7628.23" z="2933.44" r="70"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="8" dmax="12" x="7863.28" z="2926.37" r="70"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="8" dmax="12" x="7780.59" z="3014.01" r="70"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="8" dmax="12" x="2666.19" z="1384.73" r="70"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="8" dmax="12" x="6574.42" z="2447.45" r="70"/>
+    </territory>
+	    <territory color="1299789462">
+        <zone name="Himera1" smin="0" smax="0" dmin="8" dmax="12" x="7484.44" z="2755.84" r="70"/>
+		<zone name="Himera1" smin="0" smax="0" dmin="8" dmax="12" x="6445.93" z="2321.76" r="70"/>
+    </territory>
+		    <territory color="1298429462">
+        <zone name="BigTark1" smin="0" smax="0" dmin="8" dmax="12" x="8850.46" z="5513.37" r="70"/>
+		<zone name="BigTark1" smin="0" smax="0" dmin="8" dmax="12" x="10090.34" z="12663.60" r="70"/>
+		<zone name="BigTark1" smin="0" smax="0" dmin="8" dmax="12" x="7416.01" z="14701.15" r="70"/>
+		<zone name="BigTark1" smin="0" smax="0" dmin="8" dmax="12" x="1371.14" z="12910.99" r="70"/>
+    </territory>	
+	
     <territory color="1136576269">
         <zone name="InfectedCity" smin="0" smax="0" dmin="4" dmax="6" x="7714.73" z="12723.7" r="60"/>
         <zone name="InfectedCity" smin="0" smax="0" dmin="10" dmax="15" x="3357.72" z="13141.2" r="140"/>
@@ -61,10 +80,10 @@
         <zone name="InfectedReligious" smin="0" smax="0" dmin="1" dmax="3" x="13858.6" z="13460.5" r="50"/>
     </territory>
 	<territory color="1925774598">
-        <zone name="InfectedNBC" smin="8" smax="10" dmin="1" dmax="2" x="2148.21" z="3334.64" r="80"/>
+        <zone name="InfectedNBC" smin="0" smax="0" dmin="2" dmax="4" x="2148.21" z="3334.64" r="80"/>
         <zone name="InfectedNBC" smin="0" smax="0" dmin="2" dmax="4" x="2093.57" z="3510" r="80"/>
         <zone name="InfectedNBC" smin="0" smax="0" dmin="2" dmax="4" x="1915.71" z="3413.57" r="80"/>
-        <zone name="InfectedNBC" smin="8" smax="10" dmin="2" dmax="4" x="13683.3" z="11180" r="80"/>
+
     </territory>
     <territory color="2615190015">
         <zone name="InfectedIndustrial" smin="0" smax="0" dmin="4" dmax="6" x="12584.2" z="13797.5" r="70"/>
@@ -384,6 +403,7 @@
         <zone name="InfectedSolitude" smin="0" smax="0" dmin="2" dmax="4" x="5217" z="4207.5" r="50"/>
         <zone name="InfectedSolitude" smin="0" smax="0" dmin="2" dmax="4" x="5745" z="4167" r="50"/>
         <zone name="InfectedSolitude" smin="0" smax="0" dmin="2" dmax="4" x="6081" z="4896" r="50"/>
+		<zone name="InfectedSolitude" smin="0" smax="0" dmin="2" dmax="4" x="13683.3" z="11180" r="80"/>
     </territory>
     <territory color="3870921329">
         <zone name="InfectedVillageTier1" smin="0" smax="0" dmin="8" dmax="12" x="12913.3" z="8020" r="80"/>
