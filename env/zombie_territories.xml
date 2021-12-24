@@ -12,14 +12,14 @@
     
 	</territory>
 	    <territory color="1299789462">
-        <zone name="Himera1" smin="0" smax="0" dmin="1" dmax="1" x="7484.44" z="2755.84" r="5"/>
-		<zone name="Himera1" smin="0" smax="0" dmin="1" dmax="1" x="6445.93" z="2321.76" r="5"/>
+        <zone name="Himera1" smin="0" smax="0" dmin="1" dmax="1" x="7484.44" z="2755.84" r="15"/>
+		<zone name="Himera1" smin="0" smax="0" dmin="1" dmax="1" x="6445.93" z="2321.76" r="15"/>
     </territory>
 		    <territory color="1298429462">
-        <zone name="BigTark1" smin="0" smax="0" dmin="1" dmax="1" x="8850.46" z="5513.37" r="5"/>
-		<zone name="BigTark1" smin="0" smax="0" dmin="1" dmax="1" x="10090.34" z="12663.60" r="5"/>
-		<zone name="BigTark1" smin="0" smax="0" dmin="1" dmax="1" x="7416.01" z="14701.15" r="5"/>
-		<zone name="BigTark1" smin="0" smax="0" dmin="1" dmax="1" x="1371.14" z="12910.99" r="5"/>
+        <zone name="BigTark1" smin="0" smax="0" dmin="1" dmax="1" x="8850.46" z="5513.37" r="15"/>
+		<zone name="BigTark1" smin="0" smax="0" dmin="1" dmax="1" x="10090.34" z="12663.60" r="15"/>
+		<zone name="BigTark1" smin="0" smax="0" dmin="1" dmax="1" x="7416.01" z="14701.15" r="15"/>
+		<zone name="BigTark1" smin="0" smax="0" dmin="1" dmax="1" x="1371.14" z="12910.99" r="15"/>
     </territory>	
 	
     <territory color="1136576269">

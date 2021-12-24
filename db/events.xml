@@ -40,8 +40,8 @@
     </event>
 
  <event name="Himera1">
-        <nominal>10</nominal>
-        <min>5</min>
+        <nominal>25</nominal>
+        <min>15</min>
         <max>250</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
@@ -58,8 +58,8 @@
     </event>
 	
 	 <event name="BigTark1">
-        <nominal>10</nominal>
-        <min>5</min>
+        <nominal>25</nominal>
+        <min>15</min>
         <max>250</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
