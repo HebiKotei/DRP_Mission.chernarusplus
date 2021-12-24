@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <territory-type>
     <territory color="1285789462">
-        <zone name="InfectedContainers1" smin="0" smax="0" dmin="8" dmax="12" x="7414.1" z="2660.72" r="70"/>
-		<zone name="InfectedContainers1" smin="0" smax="0" dmin="8" dmax="12" x="7628.23" z="2933.44" r="70"/>
-		<zone name="InfectedContainers1" smin="0" smax="0" dmin="8" dmax="12" x="7863.28" z="2926.37" r="70"/>
-		<zone name="InfectedContainers1" smin="0" smax="0" dmin="8" dmax="12" x="7780.59" z="3014.01" r="70"/>
-		<zone name="InfectedContainers1" smin="0" smax="0" dmin="8" dmax="12" x="2666.19" z="1384.73" r="70"/>
-		<zone name="InfectedContainers1" smin="0" smax="0" dmin="8" dmax="12" x="6574.42" z="2447.45" r="70"/>
-		<zone name="InfectedContainers1" smin="0" smax="0" dmin="8" dmax="12" x="7466.33" z="2707.07" r="70"/>
+        <zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7414.1" z="2660.72" r="70"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7628.23" z="2933.44" r="70"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7863.28" z="2926.37" r="70"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7780.59" z="3014.01" r="70"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="2666.19" z="1384.73" r="70"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="6574.42" z="2447.45" r="70"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7466.33" z="2707.07" r="70"/>
     </territory>
 	    <territory color="1299789462">
         <zone name="Himera1" smin="0" smax="0" dmin="8" dmax="12" x="7484.44" z="2755.84" r="70"/>
