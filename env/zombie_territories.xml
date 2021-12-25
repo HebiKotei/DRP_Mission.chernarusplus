@@ -8,20 +8,27 @@
 		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="2666.19" z="1384.73" r="100"/>
 		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="6574.42" z="2447.45" r="100"/>
 		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7606.89" z="2925.63" r="100"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7476.82" z="2728.82" r="100"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7485.28" z="2812.27" r="100"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7455.20" z="2830.36" r="100"/>
+		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7930.15" z="3021.54" r="100"/>
+	
     	</territory>
 	    <territory color="1299789462">
-        <zone name="FS_Mutants1" smin="0" smax="0" dmin="10" dmax="20" x="7484.44" z="2755.84" r="100"/>
-		<zone name="FS_Mutants1" smin="0" smax="0" dmin="10" dmax="20" x="6445.93" z="2321.76" r="100"/>
-		<zone name="FS_Mutants1" smin="0" smax="0" dmin="10" dmax="20" x="7489.56" z="2749.12" r="100"/>
-		<zone name="FS_Mutants1" smin="0" smax="0" dmin="10" dmax="20" x="7176.65" z="2574.54" r="100"/>
-		<zone name="FS_Mutants1" smin="0" smax="0" dmin="10" dmax="20" x="6178.84" z="3202.75" r="100"/>
+        <zone name="FS_HIMERA" smin="1" smax="1" dmin="0" dmax="0" x="7484.44" z="2755.84" r="100"/>
+		<zone name="FS_HIMERA" smin="1" smax="1" dmin="0" dmax="0" x="6445.93" z="2321.76" r="100"/>
+		<zone name="FS_HIMERA" smin="1" smax="1" dmin="0" dmax="0" x="7489.56" z="2749.12" r="100"/>
+		<zone name="FS_HIMERA" smin="1" smax="1" dmin="0" dmax="0" x="7176.65" z="2574.54" r="100"/>
+		<zone name="FS_HIMERA" smin="1" smax="1" dmin="0" dmax="0" x="6178.84" z="3202.75" r="100"/>
+		<zone name="FS_HIMERA" smin="1" smax="1" dmin="0" dmax="0" x="8398.44" z="2944.07" r="100"/>
     </territory>
 		    <territory color="1298429462">
-        <zone name="BigTark1" smin="1" smax="1" dmin="0" dmax="0" x="8850.46" z="5513.37" r="15"/>
-		<zone name="BigTark1" smin="1" smax="1" dmin="0" dmax="0" x="10090.34" z="12663.60" r="15"/>
-		<zone name="BigTark1" smin="1" smax="1" dmin="0" dmax="0" x="7416.01" z="14701.15" r="15"/>
-		<zone name="BigTark1" smin="1" smax="1" dmin="0" dmax="0" x="1371.14" z="12910.99" r="15"/>
-    </territory>	
+        <zone name="FS_BIG_TARK" smin="1" smax="1" dmin="0" dmax="0" x="8850.46" z="5513.37" r="15"/>
+		<zone name="FS_BIG_TARK" smin="1" smax="1" dmin="0" dmax="0" x="10090.34" z="12663.60" r="15"/>
+		<zone name="FS_BIG_TARK" smin="1" smax="1" dmin="0" dmax="0" x="7416.01" z="14701.15" r="15"/>
+		<zone name="FS_BIG_TARK" smin="1" smax="1" dmin="0" dmax="0" x="1371.14" z="12910.99" r="15"/>
+    	<zone name="FS_BIG_TARK" smin="1" smax="1" dmin="0" dmax="0" x="8813.49" z="2288.81" r="15"/>	
+	</territory>	
 	
     <territory color="1136576269">
         <zone name="InfectedCity" smin="0" smax="0" dmin="4" dmax="6" x="7714.73" z="12723.7" r="60"/>

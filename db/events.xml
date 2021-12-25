@@ -1,6 +1,100 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
-      <event name="FS_Mutants1">
+    <event name="FS_Kaban">
+        <nominal>8</nominal>
+        <min>4</min>
+        <max>6</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="6" min="2" type="FS_Kaban"/>
+            <child lootmax="0" lootmin="0" max="4" min="0" type="FS_Kaban_black"/>
+        </children>
+    </event> 
+    <event name="FS_HIMERA">
+        <nominal>4</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="0" lootmin="0" max="0" min="1" type="FS_HIMERA_v1"/>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="FS_HIMERA_v2"/>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="FS_HIMERA_v3"/>
+        </children>
+    </event>
+	    <event name="FS_BIG_TARK">
+        <nominal>4</nominal>
+        <min>2</min>
+        <max>2</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+			<child lootmax="0" lootmin="0" max="0" min="1" type="FS_TARK_BIG"/>
+        </children>
+    </event>
+
+ <event name="DecayHorde1">
+        <nominal>50</nominal>
+        <min>25</min>
+        <max>250</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>player</position>
+        <limit>custom</limit>
+        <active>1</active>
+        <children>
+		    <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbF_ShortSkirt_white"/>
+            <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbF_ShortSkirt_yellow"/>
+			<child lootmax="5" lootmin="0" max="0" min="2" type="ZmbF_SkaterYoung_Striped"/>
+            <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbF_SkaterYoung_Violet"/>
+            <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbF_SurvivorNormal_Blue"/>
+            <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbF_SurvivorNormal_Red"/>
+			<child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_CitizenBFat_Green"/>
+            <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_CitizenBFat_Red"/>
+            <child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_ClerkFat_Grey"/>
+			<child lootmax="5" lootmin="0" max="0" min="2" type="ZmbM_CommercialPilotOld_Olive"/>
+            <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbM_JournalistSkinny"/>
+            <child lootmax="5" lootmin="0" max="0" min="6" type="ZmbM_MotobikerFat_Beige"/>
+			<child lootmax="5" lootmin="0" max="0" min="8" type="ZmbF_SurvivorNormal_Orange"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="ZmbM_CitizenASkinny_Brown"/>
+			<child lootmax="5" lootmin="0" max="0" min="4" type="ZmbF_MechanicNormal_Grey"/>
+            <child lootmax="5" lootmin="0" max="0" min="4" type="ZmbF_MechanicNormal_Orange"/>
+			<child lootmax="5" lootmin="0" max="0" min="4" type="ZmbM_ConstrWorkerNormal_Beige"/>
+            <child lootmax="5" lootmin="0" max="0" min="4" type="ZmbM_ConstrWorkerNormal_Black"/>
+			<child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_FishermanOld_Grey"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_FishermanOld_Red"/>
+			<child lootmax="5" lootmin="0" max="0" min="5" type="ZmbF_MilkMaidOld_Green"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_FarmerFat_Beige"/>
+        </children>
+    </event>    
+
+	<event name="FS_Mutants1">
         <nominal>50</nominal>
         <min>25</min>
         <max>250</max>
@@ -67,26 +161,6 @@
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_HermitSkinny_Black"/>
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_HikerSkinny_Blue"/>
             <child lootmax="5" lootmin="0" max="0" min="5" type="ZmbM_HikerSkinny_Yellow"/>
-        </children>
-    </event>
-
- <event name="Himera1">
-        <nominal>25</nominal>
-        <min>15</min>
-        <max>250</max>
-        <lifetime>3</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
-        <distanceradius>50</distanceradius>
-        <cleanupradius>100</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>player</position>
-        <limit>custom</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="5" lootmin="0" max="0" min="8" type="FS_HIMERA_v1"/>
-			<child lootmax="5" lootmin="0" max="0" min="8" type="FS_HIMERA_v2"/>
-			<child lootmax="5" lootmin="0" max="0" min="8" type="FS_HIMERA_v3"/>
         </children>
     </event>
 	
