@@ -8,8 +8,7 @@
 		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="2666.19" z="1384.73" r="100"/>
 		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="6574.42" z="2447.45" r="100"/>
 		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7606.89" z="2925.63" r="100"/>
-    
-	</territory>
+    	</territory>
 	    <territory color="1299789462">
         <zone name="FS_Mutants1" smin="0" smax="0" dmin="10" dmax="20" x="7484.44" z="2755.84" r="100"/>
 		<zone name="FS_Mutants1" smin="0" smax="0" dmin="10" dmax="20" x="6445.93" z="2321.76" r="100"/>
