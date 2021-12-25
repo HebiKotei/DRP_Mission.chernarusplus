@@ -12,9 +12,11 @@
 		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7485.28" z="2812.27" r="100"/>
 		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7455.20" z="2830.36" r="100"/>
 		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7930.15" z="3021.54" r="100"/>
-	
-    	</territory>
-	    <territory color="1299789462">
+	</territory>
+	    <territory color="1285789462">
+        <zone name="DecayHorde1" smin="0" smax="0" dmin="12" dmax="20" x="13163.51" z="7228.60" r="100"/>
+			</territory>
+	    <territory color="1292489462">
         <zone name="FS_HIMERA" smin="1" smax="1" dmin="0" dmax="0" x="7484.44" z="2755.84" r="100"/>
 		<zone name="FS_HIMERA" smin="1" smax="1" dmin="0" dmax="0" x="6445.93" z="2321.76" r="100"/>
 		<zone name="FS_HIMERA" smin="1" smax="1" dmin="0" dmax="0" x="7489.56" z="2749.12" r="100"/>
