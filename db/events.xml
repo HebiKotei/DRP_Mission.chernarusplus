@@ -38,6 +38,7 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
+			<child lootmax="5" lootmin="0" max="0" min="1" type="FS_HIMERA_v3"/>
             <child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovoSOS_Dark"/>
             <child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovoSOS_Blood"/>
 <child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovososType2_Albino"/>
@@ -75,7 +76,7 @@
         <distanceradius>50</distanceradius>
         <cleanupradius>100</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
+        <position>player</position>
         <limit>custom</limit>
         <active>1</active>
         <children>
@@ -95,7 +96,7 @@
         <distanceradius>50</distanceradius>
         <cleanupradius>100</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
+        <position>player</position>
         <limit>custom</limit>
         <active>1</active>
         <children>
