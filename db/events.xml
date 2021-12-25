@@ -40,6 +40,8 @@
         <children>
             <child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovoSOS_Dark"/>
             <child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovoSOS_Blood"/>
+<child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovososType2_Albino"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovososType2_Brown"/>
 			<child lootmax="5" lootmin="0" max="0" min="8" type="ZmbF_CitizenANormal_Brown"/>
             <child lootmax="5" lootmin="0" max="0" min="8" type="ZmbF_Clerk_Normal_Green"/>
             <child lootmax="5" lootmin="0" max="0" min="8" type="ZmbF_JournalistNormal_White"/>

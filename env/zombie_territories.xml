@@ -12,6 +12,8 @@
 	    <territory color="1299789462">
         <zone name="FS_Mutants1" smin="0" smax="0" dmin="10" dmax="20" x="7484.44" z="2755.84" r="100"/>
 		<zone name="FS_Mutants1" smin="0" smax="0" dmin="10" dmax="20" x="6445.93" z="2321.76" r="100"/>
+		<zone name="FS_Mutants1" smin="0" smax="0" dmin="10" dmax="20" x="7489.56" z="2749.12" r="100"/>
+		<zone name="FS_Mutants1" smin="0" smax="0" dmin="10" dmax="20" x="7176.65" z="2574.54" r="100"/>
     </territory>
 		    <territory color="1298429462">
         <zone name="BigTark1" smin="1" smax="1" dmin="0" dmax="0" x="8850.46" z="5513.37" r="15"/>
