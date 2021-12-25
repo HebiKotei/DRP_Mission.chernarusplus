@@ -4059,6 +4059,93 @@
 		<item name="CanisterGasoline"/>
 		</cargo>
 	</type>
+	<type name="HRW_M16M_Raw">
+		<attachments chance="0.50">
+			<item name="AD_ACOG" chance=".25" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="Mag_STANAG_30Rnd" chance="0.5" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="HRW_Universal_Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+		<type name="HRW_M1A_Raw">
+		<attachments chance="0.50">
+			<item name="AD_ACOG" chance=".25" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="HRW_Mag_M1A_Raw_10Rnd" chance="0.5" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="HRW_Universal_Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+	
+			<type name="HRW_AEK971">
+		<attachments chance="0.50">
+			<item name="AD_ACOG" chance=".25" />
+		</attachments>
+		<attachments chance="0.20">
+			<item name="Mag_AK74_30Rnd" chance="0.5" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="HRW_Universal_Suppressor" chance="1.00" />
+		</attachments>
+	</type>
+		<type name="HRW_MAT49">
+		<attachments chance="0.20">
+			<item name="HRW_Mag_MAT49_32Rnd" chance="0.5" />
+		</attachments>
+	</type>
+				<type name="HRW_Ruger1022">
+		<attachments chance=".50">
+			<item name="Mag_Ruger1022_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+					<type name="HRW_Ruger1022_Camo">
+		<attachments chance=".50">
+			<item name="Mag_Ruger1022_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+						<type name="HRW_SVT40">
+		<attachments chance=".25">
+			<item name="HRW_Mag_SVT40_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="HRW_Thompson">
+		<attachments chance=".25">
+			<item name="HRW_Mag_Thompson_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	<type name="HRW_USP_9x19">
+		<attachments chance=".50">
+			<item name="HRW_Mag_USP_9x19_15Rnd" chance="1.00" />
+		</attachments>
+	</type>
+		<type name="HRW_Vepr">
+		<attachments chance=".50">
+			<item name="HRW_Mag_Vepr_10Rnd" chance="1.00" />
+		</attachments>
+	</type>
+
+	<type name="Massmini14">
+		<attachments chance=".25">
+			<item name="Mag_STANAG_30Rnd" chance="1.00" />
+		</attachments>
+	</type>
+	
+		<type name="MassG18">
+		<attachments chance=".5">
+			<item name="MassG18Mag" chance="1.00" />
+		</attachments>
+	</type>
+		<type name="MassG18_Green">
+		<attachments chance=".5">
+			<item name="MassG18Mag" chance="1.00" />
+		</attachments>
+	</type>
+
 
 
 </spawnabletypes>
