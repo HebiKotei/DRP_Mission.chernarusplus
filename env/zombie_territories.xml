@@ -7,7 +7,6 @@
 		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7780.59" z="3014.01" r="100"/>
 		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="2666.19" z="1384.73" r="100"/>
 		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="6574.42" z="2447.45" r="100"/>
-		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7466.33" z="2707.07" r="100"/>
 		<zone name="InfectedContainers1" smin="0" smax="0" dmin="12" dmax="20" x="7606.89" z="2925.63" r="100"/>
     
 	</territory>
