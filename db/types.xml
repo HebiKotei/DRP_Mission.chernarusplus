@@ -30486,4 +30486,76 @@
 		<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
 	</type>
 
+<!-- Fidov Stalker Mutants -->
+
+    <type name="FS_HIMERA_v1">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="FS_HIMERA_v2">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+    <type name="FS_HIMERA_v3">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+	    <type name="FS_Kaban">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+		    <type name="FS_Kaban_black">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+		    <type name="FS_TARK_BIG">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
+		    <type name="FS_Tark">
+        <nominal>0</nominal>
+        <lifetime>1800</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
 </types>
