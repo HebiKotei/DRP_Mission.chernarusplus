@@ -32,12 +32,12 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-			<child lootmax="0" lootmin="0" max="0" min="1" type="FS_HIMERA_v1"/>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="FS_HIMERA_v1"/>
 			<child lootmax="0" lootmin="0" max="1" min="1" type="FS_HIMERA_v2"/>
 			<child lootmax="0" lootmin="0" max="1" min="1" type="FS_HIMERA_v3"/>
         </children>
     </event>
-	    <event name="FS_BIG_TARK">
+	    <event name="FS_TARK">
         <nominal>4</nominal>
         <min>2</min>
         <max>2</max>
@@ -94,7 +94,7 @@
         </children>
     </event>    
 
-	<event name="FS_Mutants1">
+<event name="FS_Krovosos">
         <nominal>50</nominal>
         <min>25</min>
         <max>250</max>
@@ -108,20 +108,13 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_HIMERA_v1"/>
-			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_HIMERA_v2"/>
-			<child lootmax="5" lootmin="3" max="0" min="2" type="FS_HIMERA_v3"/>
 			<child lootmax="5" lootmin="0" max="0" min="5" type="FS_KrovoSOS_Dark"/>
             <child lootmax="5" lootmin="0" max="0" min="5" type="FS_KrovoSOS_Blood"/>
 			<child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovososType2_Albino"/>
             <child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovososType2_Brown"/>
-			<child lootmax="5" lootmin="0" max="0" min="10" type="FS_TARK_BIG"/>
-			<child lootmax="5" lootmin="0" max="0" min="10" type="FS_Tark"/>
-			<child lootmax="5" lootmin="0" max="0" min="10" type="FS_Kaban"/>
-			<child lootmax="5" lootmin="0" max="0" min="10" type="FS_Kaban_black"/>
         </children>
     </event>
-  
+
   <event name="InfectedContainers1">
         <nominal>50</nominal>
         <min>30</min>
@@ -136,8 +129,7 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-			<child lootmax="5" lootmin="0" max="0" min="5" type="FS_HIMERA_v3"/>
-            <child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovoSOS_Dark"/>
+			<child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovoSOS_Dark"/>
             <child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovoSOS_Blood"/>
 <child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovososType2_Albino"/>
             <child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovososType2_Brown"/>
