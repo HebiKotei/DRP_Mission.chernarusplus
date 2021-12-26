@@ -79,16 +79,16 @@
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="180" z="4050" r="150"/>
     </territory>
     <territory color="4020991772">
-        <zone name="FS_TARK" smin="0" smax="0" dmin="1" dmax="1" x="10852.5" z="13098.8" r="150"/>
-        <zone name="FS_TARK" smin="0" smax="0" dmin="1" dmax="1" x="480" z="14040" r="150"/>
-        <zone name="FS_TARK" smin="0" smax="0" dmin="1" dmax="1" x="2805" z="14580" r="150"/>
-        <zone name="FS_TARK" smin="0" smax="0" dmin="1" dmax="1" x="675" z="12495" r="150"/>
-        <zone name="FS_TARK" smin="0" smax="0" dmin="1" dmax="1" x="165" z="9315" r="150"/>
-        <zone name="FS_TARK" smin="0" smax="0" dmin="1" dmax="1" x="8625" z="5445" r="150"/>
-        <zone name="FS_TARK" smin="0" smax="0" dmin="1" dmax="1" x="8070" z="4050" r="150"/>
-        <zone name="FS_TARK" smin="0" smax="0" dmin="1" dmax="1" x="12150" z="4800" r="150"/>
-        <zone name="FS_TARK" smin="0" smax="0" dmin="1" dmax="1" x="3930" z="4185" r="150"/>
-        <zone name="FS_TARK" smin="0" smax="0" dmin="1" dmax="1" x="1215" z="3090" r="150"/>
+        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="10852.5" z="13098.8" r="150"/>
+        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="480" z="14040" r="150"/>
+        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="2805" z="14580" r="150"/>
+        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="675" z="12495" r="150"/>
+        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="165" z="9315" r="150"/>
+        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="8625" z="5445" r="150"/>
+        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="8070" z="4050" r="150"/>
+        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="12150" z="4800" r="150"/>
+        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="3930" z="4185" r="150"/>
+        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="1215" z="3090" r="150"/>
     </territory>
     <territory color="4294923520">
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="7218.75" z="14211.3" r="150"/>
@@ -104,9 +104,9 @@
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="6155" z="14355" r="150"/>
     </territory>
     <territory color="4282347149">
-        <zone name="FS_HIMERA" smin="0" smax="0" dmin="1" dmax="1" x="7503" z="2797" r="60"/>
-        <zone name="FS_HIMERA" smin="0" smax="0" dmin="1" dmax="1" x="6585" z="2439" r="60"/>
-        <zone name="FS_HIMERA" smin="0" smax="0" dmin="1" dmax="1" x="4467" z="10530" r="60"/>
+        <zone name="AnimalHimera" smin="0" smax="0" dmin="1" dmax="1" x="7503" z="2797" r="60"/>
+        <zone name="AnimalHimera" smin="0" smax="0" dmin="1" dmax="1" x="6585" z="2439" r="60"/>
+        <zone name="AnimalHimera" smin="0" smax="0" dmin="1" dmax="1" x="4467" z="10530" r="60"/>
     </territory>
     <territory color="4294923520">
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="540" z="7635" r="150"/>
