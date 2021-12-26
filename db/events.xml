@@ -14,8 +14,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="6" min="2" type="FS_Kaban"/>
-            <child lootmax="0" lootmin="0" max="4" min="0" type="FS_Kaban_black"/>
+            <child lootmax="5" lootmin="3" max="0" min="4" type="FS_Kaban"/>
+            <child lootmax="5" lootmin="3" max="0" min="3" type="FS_Kaban_black"/>
         </children>
     </event> 
     <event name="FS_HIMERA">
@@ -108,10 +108,10 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-			<child lootmax="5" lootmin="0" max="0" min="5" type="FS_KrovoSOS_Dark"/>
-            <child lootmax="5" lootmin="0" max="0" min="5" type="FS_KrovoSOS_Blood"/>
-			<child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovososType2_Albino"/>
-            <child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovososType2_Brown"/>
+			<child lootmax="5" lootmin="3" max="0" min="5" type="FS_KrovoSOS_Dark"/>
+            <child lootmax="5" lootmin="3" max="0" min="5" type="FS_KrovoSOS_Blood"/>
+			<child lootmax="5" lootmin="3" max="0" min="10" type="FS_KrovososType2_Albino"/>
+            <child lootmax="5" lootmin="3" max="0" min="10" type="FS_KrovososType2_Brown"/>
         </children>
     </event>
 <event name="InfectedAndKrov1">
