@@ -1424,9 +1424,9 @@
 		<pos x="13448.585938" z="14281.957031" a="135.727158" />
 	</event>
 	
-	<event name="FS_HIMERA"/>
-	<event name="FS_Kaban"/>
-	<event name="FS_Krovosos"/>
-	<event name="FS_TARK"/>
+	<event name="FS_HIMERA" />
+	<event name="FS_Kaban" />
+	<event name="FS_Krovosos" />
+	<event name="FS_TARK" />
 	
 </eventposdef>

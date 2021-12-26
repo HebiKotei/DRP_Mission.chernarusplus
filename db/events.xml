@@ -6,12 +6,12 @@
         <max>6</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
-        <saferadius>200</saferadius>
-        <distanceradius>0</distanceradius>
-        <cleanupradius>0</cleanupradius>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
-        <limit>child</limit>
+        <limit>custom</limit>
         <active>1</active>
         <children>
             <child lootmax="5" lootmin="3" max="0" min="4" type="FS_Kaban"/>
@@ -24,9 +24,9 @@
         <max>3</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
-        <saferadius>200</saferadius>
-        <distanceradius>0</distanceradius>
-        <cleanupradius>0</cleanupradius>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>player</position>
         <limit>custom</limit>
@@ -43,11 +43,11 @@
         <max>2</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
-        <saferadius>200</saferadius>
-        <distanceradius>0</distanceradius>
-        <cleanupradius>0</cleanupradius>
+        <saferadius>100</saferadius>
+        <distanceradius>50</distanceradius>
+        <cleanupradius>100</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>parent</position>
+        <position>player</position>
         <limit>custom</limit>
         <active>1</active>
         <children>
@@ -168,6 +168,12 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
+		    <child lootmax="5" lootmin="0" max="0" min="5" type="FS_Kaban"/>			
+            <child lootmax="5" lootmin="0" max="0" min="5" type="FS_HIMERA"/>			
+			<child lootmax="5" lootmin="0" max="0" min="5" type="FS_KrovoSOS_Dark"/>
+            <child lootmax="5" lootmin="0" max="0" min="5" type="FS_KrovoSOS_Blood"/>
+			<child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovososType2_Albino"/>
+            <child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovososType2_Brown"/>
 			<child lootmax="5" lootmin="0" max="0" min="8" type="ZmbF_CitizenANormal_Brown"/>
             <child lootmax="5" lootmin="0" max="0" min="8" type="ZmbF_Clerk_Normal_Green"/>
             <child lootmax="5" lootmin="0" max="0" min="8" type="ZmbF_JournalistNormal_White"/>
