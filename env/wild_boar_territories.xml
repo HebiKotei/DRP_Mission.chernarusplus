@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <territory-type>
+    <territory color="4290035509">
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="3" dmax="6" x="5805" z="2505" r="60"/>
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="3" dmax="6" x="6648.75" z="3570" r="60"/>
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="3" dmax="6" x="6037.5" z="3247.5" r="60"/>
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="3" dmax="6" x="10211.3" z="2178.75" r="60"/>
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="3" dmax="6" x="12896.3" z="10136.3" r="60"/>
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="3" dmax="6" x="12228.8" z="14325" r="60"/>
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="3" dmax="6" x="7766.25" z="12600" r="60"/>
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="3" dmax="6" x="3810" z="13020" r="60"/>
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="3" dmax="6" x="1658.33" z="14281.7" r="60"/>
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="3" dmax="6" x="8130" z="15" r="60"/>
+    </territory>
     <territory color="2841534046">
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="9058.75" z="13568.8" r="60"/>
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="9247.5" z="13934.4" r="80"/>
