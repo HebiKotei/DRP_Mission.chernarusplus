@@ -214,22 +214,22 @@
         <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="14365" z="13312.5" r="80"/>
         <zone name="FS_Krovosos" smin="0" smax="0" dmin="3" dmax="6" x="10755" z="2187.5" r="80"/>
         <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="13628.6" z="4056.43" r="50"/>
-        <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="13490" z="2835" r="50"/>
-        <zone name="FS_Krovosos" smin="0" smax="0" dmin="4" dmax="8" x="5243.57" z="2005.71" r="80"/>
-        <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="1810" z="2075" r="50"/>
-        <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="2928" z="1333.5" r="50"/>
-        <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="2610" z="1347" r="50"/>
-        <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="7512.5" z="2790" r="60"/>
-        <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="7582.5" z="2897.5" r="60"/>
-        <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="7422.5" z="2687.5" r="60"/>
-        <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="7775" z="3030" r="60"/>
-        <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="7840" z="2930" r="60"/>
-        <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="7832.5" z="2750" r="60"/>
-        <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="8290" z="2405" r="60"/>
-        <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="6605" z="2327.5" r="60"/>
-        <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="6385" z="2242.5" r="60"/>
-        <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="7022.5" z="2635" r="60"/>
-        <zone name="FS_Krovosos" smin="0" smax="0" dmin="2" dmax="4" x="3605" z="2170" r="60"/>
+        <zone name="FS_Krovosos" smin="0" smax="0" dmin="8" dmax="12" x="13490" z="2835" r="50"/>
+        <zone name="FS_Krovosos" smin="0" smax="0" dmin="8" dmax="12" x="5243.57" z="2005.71" r="80"/>
+        <zone name="FS_Krovosos" smin="0" smax="0" dmin="8" dmax="12" x="1810" z="2075" r="50"/>
+        <zone name="FS_Krovosos" smin="0" smax="0" dmin="8" dmax="12" x="2928" z="1333.5" r="50"/>
+        <zone name="FS_Krovosos" smin="0" smax="0" dmin="8" dmax="12" x="2610" z="1347" r="50"/>
+        <zone name="FS_Krovosos" smin="0" smax="0" dmin="8" dmax="12" x="7512.5" z="2790" r="60"/>
+        <zone name="FS_Krovosos" smin="0" smax="0" dmin="8" dmax="12" x="7582.5" z="2897.5" r="60"/>
+        <zone name="FS_Krovosos" smin="0" smax="0" dmin="8" dmax="12" x="7422.5" z="2687.5" r="60"/>
+        <zone name="FS_Krovosos" smin="0" smax="0" dmin="8" dmax="12" x="7775" z="3030" r="60"/>
+        <zone name="FS_Krovosos" smin="0" smax="0" dmin="8" dmax="12" x="7840" z="2930" r="60"/>
+        <zone name="FS_Krovosos" smin="0" smax="0" dmin="8" dmax="12" x="7832.5" z="2750" r="60"/>
+        <zone name="FS_Krovosos" smin="0" smax="0" dmin="8" dmax="12" x="8290" z="2405" r="60"/>
+        <zone name="FS_Krovosos" smin="0" smax="0" dmin="8" dmax="12" x="6605" z="2327.5" r="60"/>
+        <zone name="FS_Krovosos" smin="0" smax="0" dmin="8" dmax="12" x="6385" z="2242.5" r="60"/>
+        <zone name="FS_Krovosos" smin="0" smax="0" dmin="8" dmax="12" x="7022.5" z="2635" r="60"/>
+        <zone name="FS_Krovosos" smin="0" smax="0" dmin="8" dmax="12" x="3605" z="2170" r="60"/>
     </territory>
     <territory color="1289674462">
         <zone name="InfectedPrisoner" smin="0" smax="0" dmin="8" dmax="12" x="2601.31" z="1317.64" r="70"/>
