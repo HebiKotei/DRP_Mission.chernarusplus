@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<territory-type>
-    <territory color="4280445787">
-        <zone name="FS_HIMERA" smin="0" smax="0" dmin="1" dmax="1" x="7515" z="2825" r="80"/>
-        <zone name="FS_HIMERA" smin="0" smax="0" dmin="1" dmax="1" x="6586.88" z="2418.75" r="80"/>
-        <zone name="FS_HIMERA" smin="0" smax="0" dmin="1" dmax="1" x="4675" z="10460" r="100"/>
-    </territory>
-</territory-type>
