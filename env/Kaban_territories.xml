@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<territory-type>
+    <territory color="4282539704">
+        <zone name="FS_Kaban" smin="0" smax="1" dmin="2" dmax="4" x="5755" z="2550" r="120"/>
+        <zone name="FS_Kaban" smin="0" smax="1" dmin="2" dmax="4" x="6460" z="2700" r="120"/>
+        <zone name="FS_Kaban" smin="0" smax="1" dmin="2" dmax="4" x="6705" z="3600" r="120"/>
+        <zone name="FS_Kaban" smin="0" smax="1" dmin="2" dmax="4" x="10490" z="2265" r="120"/>
+        <zone name="FS_Kaban" smin="0" smax="1" dmin="2" dmax="4" x="12790" z="10175" r="120"/>
+        <zone name="FS_Kaban" smin="0" smax="1" dmin="3" dmax="5" x="2514" z="5157" r="100"/>
+        <zone name="FS_Kaban" smin="0" smax="1" dmin="3" dmax="5" x="2163" z="3351" r="100"/>
+        <zone name="FS_Kaban" smin="0" smax="1" dmin="3" dmax="5" x="11150" z="12260" r="100"/>
+        <zone name="FS_Kaban" smin="0" smax="1" dmin="3" dmax="5" x="12210" z="14305" r="100"/>
+        <zone name="FS_Kaban" smin="0" smax="1" dmin="3" dmax="5" x="7950" z="12675" r="100"/>
+        <zone name="FS_Kaban" smin="0" smax="1" dmin="3" dmax="5" x="3795" z="13000" r="100"/>
+    </territory>
+</territory-type>
