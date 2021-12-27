@@ -43,5 +43,13 @@ Example messages:
         <text>Welcome to my server #name</text>
     </message>
     -->
+	
+	
+	    <message>
+        <delay>10</delay>
+        <repeat>50</repeat>
+        <onconnect>1</onconnect>
+        <text>DecayRP(decayrp.net)</text>
+    </message>
 
 </messages>
