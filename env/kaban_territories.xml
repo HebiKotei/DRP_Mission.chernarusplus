@@ -1,14 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <territory-type>
     <territory color="4287850789">
-        <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="6" x="6679.17" z="3599.17" r="150"/>
-        <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="6" x="5730" z="2602.5" r="150"/>
-        <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="6" x="6120" z="3262.5" r="150"/>
-        <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="6" x="10245" z="2285" r="150"/>
-        <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="6" x="12860" z="10130" r="150"/>
-        <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="6" x="7840" z="12590" r="150"/>
-        <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="6" x="12110" z="14250" r="150"/>
         <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="6" x="3785" z="12955" r="150"/>
+    </territory>
+    <territory color="4287850789">
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="6" x="7840" z="12590" r="150"/>
+    </territory>
+    <territory color="4287850789">
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="6" x="12110" z="14250" r="150"/>
+    </territory>
+    <territory color="4287850789">
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="6" x="12860" z="10130" r="150"/>
+    </territory>
+    <territory color="4287850789">
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="6" x="6679.17" z="3599.17" r="150"/>
+    </territory>
+    <territory color="4287850789">
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="6" x="10245" z="2285" r="150"/>
+    </territory>
+    <territory color="4287850789">
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="6" x="6120" z="3262.5" r="150"/>
+    </territory>
+    <territory color="4287850789">
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="6" x="5730" z="2602.5" r="150"/>
+    </territory>
+    <territory color="4287850789">
         <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="6" x="2733.75" z="5178.75" r="150"/>
     </territory>
 </territory-type>

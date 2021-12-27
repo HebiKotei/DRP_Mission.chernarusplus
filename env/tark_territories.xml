@@ -1,23 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <territory-type>
     <territory color="4279925794">
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="8175" z="4035" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="10245" z="4410" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="11040" z="12945" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="495" z="14220" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="390" z="12885" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="2835" z="14580" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="13245" z="12375" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="8685" z="5505" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="12930" z="4170" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="2565" z="3930" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="750" z="3885" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="240" z="9090" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="7425" z="12000" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="7230" z="13905" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="12015" z="4920" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="5985" z="14160" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="1500" z="13350" r="150"/>
-        <zone name="AnimalTark" smin="0" smax="0" dmin="1" dmax="1" x="3450" z="12210" r="150"/>
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="240" z="9090" r="150"/>
+    </territory>
+    <territory color="4279925794">
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="750" z="3885" r="150"/>
+    </territory>
+    <territory color="4279925794">
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="8175" z="4035" r="150"/>
+    </territory>
+    <territory color="4279925794">
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="495" z="14220" r="150"/>
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="390" z="12885" r="150"/>
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="2835" z="14580" r="150"/>
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="1500" z="13350" r="150"/>
+    </territory>
+    <territory color="4279925794">
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="8685" z="5505" r="150"/>
+    </territory>
+    <territory color="4279925794">
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="10245" z="4410" r="150"/>
+    </territory>
+    <territory color="4279925794">
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="2565" z="3930" r="150"/>
+    </territory>
+    <territory color="4279925794">
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="12930" z="4170" r="150"/>
+    </territory>
+    <territory color="4279925794">
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="12015" z="4920" r="150"/>
+    </territory>
+    <territory color="4279925794">
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="13245" z="12375" r="150"/>
+    </territory>
+    <territory color="4279925794">
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="11040" z="12945" r="150"/>
+    </territory>
+    <territory color="4279925794">
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="7425" z="12000" r="150"/>
+    </territory>
+    <territory color="4279925794">
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="7230" z="13905" r="150"/>
+    </territory>
+    <territory color="4279925794">
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="5985" z="14160" r="150"/>
+    </territory>
+    <territory color="4279925794">
+        <zone name="AnimalTark" smin="0" smax="0" dmin="0" dmax="1" x="3450" z="12210" r="150"/>
     </territory>
 </territory-type>
