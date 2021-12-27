@@ -1856,7 +1856,7 @@ SpawnObject("Land_Ruin_Slum_House4", "13179.460938 2.371461 3864.996826", "35.99
 SpawnObject("Land_Ruin_Slum_House3", "13161.599609 2.343618 3867.243408", "116.999947 0.000000 -0.000000");
 
 //Spawn Loot
-//GetCEApi().ExportProxyData(Vector(7500, GetGame().SurfaceY(7500, 7500), 7500), 20000);
+GetCEApi().ExportProxyData(Vector(7500, GetGame().SurfaceY(7500, 7500), 7500), 20000);
 }
 
 class CustomMission: MissionServer
