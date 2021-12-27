@@ -19,9 +19,9 @@
         </children>
     </event> 
 	<event name="AnimalHimera">
-        <nominal>1</nominal>
-        <min>1</min>
-        <max>1</max>
+        <nominal>8</nominal>
+        <min>4</min>
+        <max>6</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -32,15 +32,15 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-			<child lootmax="0" lootmin="0" max="0" min="1" type="FS_HIMERA_v1"/>
-			<child lootmax="0" lootmin="0" max="0" min="1" type="FS_HIMERA_v2"/>
-			<child lootmax="0" lootmin="0" max="0" min="1" type="FS_HIMERA_v3"/>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="FS_HIMERA_v1"/>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="FS_HIMERA_v2"/>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="FS_HIMERA_v3"/>
         </children>
     </event>
 	    <event name="AnimalTark">
-        <nominal>1</nominal>
-        <min>1</min>
-        <max>1</max>
+        <nominal>8</nominal>
+        <min>4</min>
+        <max>6</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
