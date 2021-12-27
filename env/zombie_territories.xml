@@ -650,18 +650,18 @@
         <zone name="InfectedVillageTier1" smin="0" smax="0" dmin="4" dmax="6" x="6082.5" z="2982" r="60"/>
     </territory>
     <territory color="4287654873">
-        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="2" dmax="4" x="7470" z="2561.25" r="50"/>
-        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="2" dmax="4" x="7425" z="2696.25" r="50"/>
-        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="2" dmax="4" x="7488.75" z="2799.38" r="50"/>
-        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="2" dmax="4" x="7561.88" z="2896.88" r="50"/>
-        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="2" dmax="4" x="7616.25" z="3011.25" r="50"/>
+        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="6" x="7470" z="2561.25" r="50"/>
+        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="6" x="7425" z="2696.25" r="50"/>
+        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="6" x="7488.75" z="2799.38" r="50"/>
+        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="6" x="7561.88" z="2896.88" r="50"/>
+        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="6" x="7616.25" z="3011.25" r="50"/>
         <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="6" x="7944.38" z="3016.88" r="100"/>
-        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="2" dmax="5" x="7762.5" z="3080.63" r="50"/>
-        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="5" x="7102.5" z="2666.25" r="150"/>
-        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="5" x="6566.25" z="2463.75" r="150"/>
-        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="5" x="6007.5" z="2058.75" r="150"/>
-        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="5" x="8422.5" z="2467.5" r="150"/>
-        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="5" x="8328.75" z="2812.5" r="150"/>
+        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="6" x="7762.5" z="3080.63" r="50"/>
+        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="6" x="7102.5" z="2666.25" r="150"/>
+        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="6" x="6566.25" z="2463.75" r="150"/>
+        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="6" x="6007.5" z="2058.75" r="150"/>
+        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="6" x="8422.5" z="2467.5" r="150"/>
+        <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="6" x="8328.75" z="2812.5" r="150"/>
         <zone name="InfectedKrovosos" smin="0" smax="0" dmin="1" dmax="2" x="7845" z="2767.5" r="50"/>
         <zone name="InfectedKrovosos" smin="0" smax="0" dmin="1" dmax="2" x="7807.5" z="2932.5" r="50"/>
         <zone name="InfectedKrovosos" smin="0" smax="0" dmin="3" dmax="5" x="10280" z="1720" r="150"/>

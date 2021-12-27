@@ -32,9 +32,9 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-			<child lootmax="0" lootmin="0" max="0" min="1" type="FS_HIMERA_v1"/>
-			<child lootmax="0" lootmin="0" max="0" min="1" type="FS_HIMERA_v2"/>
-			<child lootmax="0" lootmin="0" max="0" min="1" type="FS_HIMERA_v3"/>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="FS_HIMERA_v1"/>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="FS_HIMERA_v2"/>
+			<child lootmax="0" lootmin="0" max="1" min="1" type="FS_HIMERA_v3"/>
         </children>
     </event>
 	    <event name="AnimalTark">
@@ -96,7 +96,7 @@
 
 <event name="InfectedKrovosos">
         <nominal>50</nominal>
-        <min>25</min>
+        <min>30</min>
         <max>250</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
@@ -128,13 +128,7 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-		    <child lootmax="5" lootmin="0" max="0" min="5" type="FS_Kaban"/>			
-            <child lootmax="5" lootmin="0" max="0" min="5" type="FS_HIMERA"/>			
-			<child lootmax="5" lootmin="0" max="0" min="5" type="FS_KrovoSOS_Dark"/>
-            <child lootmax="5" lootmin="0" max="0" min="5" type="FS_KrovoSOS_Blood"/>
-			<child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovososType2_Albino"/>
-            <child lootmax="5" lootmin="0" max="0" min="10" type="FS_KrovososType2_Brown"/>
-			<child lootmax="5" lootmin="0" max="0" min="8" type="ZmbF_CitizenANormal_Brown"/>
+		 	<child lootmax="5" lootmin="0" max="0" min="8" type="ZmbF_CitizenANormal_Brown"/>
             <child lootmax="5" lootmin="0" max="0" min="8" type="ZmbF_Clerk_Normal_Green"/>
             <child lootmax="5" lootmin="0" max="0" min="8" type="ZmbF_JournalistNormal_White"/>
             <child lootmax="5" lootmin="0" max="0" min="8" type="ZmbF_ShortSkirt_black"/>
@@ -391,8 +385,8 @@
         </children>
     </event>
     <event name="InfectedCity">
-        <nominal>50</nominal>
-        <min>25</min>
+        <nominal>75</nominal>
+        <min>50</min>
         <max>250</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
@@ -447,8 +441,8 @@
         </children>
     </event>
     <event name="InfectedCityTier1">
-        <nominal>50</nominal>
-        <min>25</min>
+        <nominal>75</nominal>
+        <min>50</min>
         <max>250</max>
         <lifetime>3</lifetime>
         <restock>0</restock>
