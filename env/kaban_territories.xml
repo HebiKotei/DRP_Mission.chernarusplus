@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<territory-type>
+    <territory color="4287850789">
+        <zone name="AnimalKaban" smin="0" smax="0" dmin="4" dmax="8" x="8376.67" z="2941.67" r="50"/>
+    </territory>
+</territory-type>

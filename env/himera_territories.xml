@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<territory-type>
+    <territory color="4285509831">
+        <zone name="AnimalHimera" smin="0" smax="0" dmin="6" dmax="10" x="8480" z="2711.67" r="50"/>
+    </territory>
+</territory-type>
