@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <territory-type>
     <territory color="4285509831">
-        <zone name="AnimalHimera" smin="0" smax="0" dmin="6" dmax="10" x="8480" z="2711.67" r="50"/>
+        <zone name="AnimalHimera" smin="0" smax="0" dmin="1" dmax="1" x="7507.5" z="2804.17" r="50"/>
+        <zone name="AnimalHimera" smin="0" smax="0" dmin="1" dmax="1" x="6565" z="2485" r="150"/>
+        <zone name="AnimalHimera" smin="0" smax="0" dmin="1" dmax="1" x="4590" z="10597.5" r="150"/>
     </territory>
 </territory-type>
