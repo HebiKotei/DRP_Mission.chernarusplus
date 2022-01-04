@@ -1917,6 +1917,9 @@ class CustomMission: MissionServer
 			player.GetInventory().CreateInInventory("ChernarusMap");
 			player.GetInventory().CreateInInventory("WaterBottle");
 			player.GetInventory().CreateInInventory("PersonalRadio");
+			player.GetInventory().CreateInInventory("Flashlight");
+			player.GetInventory().CreateInInventory("Roadflare");
+			player.GetInventory().CreateInInventory("Battery9V");
 			player.GetInventory().CreateInInventory("Battery9V");
 			player.GetInventory().CreateInInventory("Matchbox");
 			
