@@ -1079,10 +1079,10 @@
 		<usage name="Lunapark"/>
     </type>
     <type name="Ammo_Flare">
-        <nominal>15</nominal>
+        <nominal>30</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
-        <min>12</min>
+        <min>20</min>
         <quantmin>20</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -1095,10 +1095,10 @@
         <usage name="Coast"/>
     </type>
     <type name="Ammo_FlareBlue">
-        <nominal>10</nominal>
+        <nominal>30</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
-        <min>8</min>
+        <min>20</min>
         <quantmin>20</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -1111,10 +1111,10 @@
         <usage name="Coast"/>
     </type>
     <type name="Ammo_FlareGreen">
-        <nominal>10</nominal>
+        <nominal>30</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
-        <min>8</min>
+        <min>20</min>
         <quantmin>20</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -1127,10 +1127,10 @@
         <usage name="Coast"/>
     </type>
     <type name="Ammo_FlareRed">
-        <nominal>7</nominal>
+        <nominal>30</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
-        <min>4</min>
+        <min>20</min>
         <quantmin>20</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -6256,7 +6256,7 @@
         <usage name="School"/>
     </type>
     <type name="Flaregun">
-        <nominal>35</nominal>
+        <nominal>50</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
         <min>25</min>
@@ -6270,6 +6270,7 @@
         <usage name="Medic"/>
         <usage name="Firefighter"/>
         <usage name="Coast"/>
+		<usage name="Industrial"/>
     </type>
     <type name="FlashGrenade">
         <nominal>20</nominal>
@@ -8039,10 +8040,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Headtorch_Black">
-        <nominal>80</nominal>
+        <nominal>100</nominal>
         <lifetime>28800</lifetime>
-        <restock>1200</restock>
-        <min>40</min>
+        <restock>100</restock>
+        <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8053,15 +8054,13 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="Hunting"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+		<usage name="Coast"/>
     </type>
     <type name="Headtorch_Grey">
-        <nominal>80</nominal>
+        <nominal>100</nominal>
         <lifetime>28800</lifetime>
-        <restock>1200</restock>
-        <min>40</min>
+        <restock>100</restock>
+        <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8072,9 +8071,7 @@
         <usage name="Town"/>
         <usage name="Village"/>
         <usage name="Hunting"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
+        <usage name="Coast"/>
     </type>
     <type name="Heatpack">
         <nominal>30</nominal>
@@ -13470,20 +13467,21 @@
         <usage name="Town"/>
     </type>
     <type name="Roadflare">
-        <nominal>40</nominal>
+        <nominal>100</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
-        <min>26</min>
+        <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="tools"/>
-        <usage name="Military"/>
+        <usage name="Village"/>
+		<usage name="Town"/>
+		<usage name="Industrial"/>
+		<usage name="Hunting"/>
+		<usage name="Military"/>
         <usage name="Police"/>
-        <value name="Tier2"/>
-        <value name="Tier3"/>
-        <value name="Tier4"/>
     </type>
     <type name="Rope">
         <nominal>100</nominal>
