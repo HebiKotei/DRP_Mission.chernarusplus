@@ -41,8 +41,8 @@
 
         <!-- centers for grids of spawn points -->
         <generator_posbubbles>
-			<pos x="14204" z="2617" />
-        </generator_posbubbles>
+			<pos x="14202.40" z="2616.26" />
+        		</generator_posbubbles>
     </fresh>
 
     <!--
