@@ -573,10 +573,10 @@
         <value name="Tier4"/>
     </type>
     <type name="AmmoBox_357_20Rnd">
-        <nominal>45</nominal>
+        <nominal>60</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
-        <min>35</min>
+        <min>40</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -866,10 +866,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Ammo_357">
-        <nominal>80</nominal>
+        <nominal>120</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
-        <min>75</min>
+        <min>80</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -1034,7 +1034,7 @@
         <usage name="Coast"/>
     </type>
     <type name="Ammo_9x19">
-        <nominal>80</nominal>
+        <nominal>100</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
         <min>75</min>
@@ -12612,10 +12612,10 @@
         <usage name="Military"/>
     </type>
     <type name="PlateCarrierVest">
-        <nominal>3</nominal>
+        <nominal>0</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
-        <min>1</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -28097,16 +28097,18 @@
         <usage name="Village"/>
     </type>
 	<type name="kv5_mung">
-        <nominal>20</nominal>
+        <nominal>80</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>10</min>
+        <min>40</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="clothes"/>
         <usage name="Industrial"/>
+		<usage name="Coast"/>
+		<usage name="Village"/>
+		<usage name="Town"/>
     </type>
 		<type name="rifleholster_black_mung">
         <nominal>15</nominal>
