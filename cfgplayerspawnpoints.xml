@@ -41,10 +41,9 @@
 
         <!-- centers for grids of spawn points -->
         <generator_posbubbles>
-			<pos x="14203" z="2617" />
+			<pos x="1844.59" z="2087.58" />
         		</generator_posbubbles>
 			    </fresh>
-
     <!--
         Spawn points settings for server hoppers
     -->
