@@ -775,6 +775,7 @@ SpawnObject("bldr_Slum_Roof4", "112.066002 321.782013 8694.290039", "-101.099998
 
 //Spawn Loot
 GetCEApi().ExportProxyData(Vector(7500, GetGame().SurfaceY(7500, 7500), 7500), 20000);
+EditorLoaderModule.ExportLootData = true;
 }
 
 class CustomMission: MissionServer
