@@ -25074,6 +25074,42 @@
         <category name="containers"/>
         <usage name="Industrial"/>
     </type>
+			<type name="MD_CampHouse_Red">
+        <nominal>0</nominal>
+        <lifetime>2166000</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+			<type name="MD_CampHouse_Brown">
+        <nominal>0</nominal>
+        <lifetime>2166000</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+		<type name="MD_CampHouse_White">
+        <nominal>0</nominal>
+        <lifetime>2166000</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
 	<type name="MD_CampHouse_White_Kit">
         <nominal>11</nominal>
         <lifetime>21600</lifetime>
@@ -25115,6 +25151,54 @@
         <lifetime>21600</lifetime>
         <restock>1200</restock>
         <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+					<type name="MD_Caravan_MRust">
+        <nominal>0</nominal>
+        <lifetime>2166000</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+					<type name="MD_Caravan_MGreen">
+        <nominal>0</nominal>
+        <lifetime>2166000</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+				<type name="MD_Caravan_WGreen">
+        <nominal>0</nominal>
+        <lifetime>2166000</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Industrial"/>
+    </type>
+			<type name="MD_Caravan_WBrown">
+        <nominal>0</nominal>
+        <lifetime>2166000</lifetime>
+        <restock>1200</restock>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
