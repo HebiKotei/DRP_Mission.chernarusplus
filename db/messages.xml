@@ -47,7 +47,7 @@ Example messages:
         <delay>2</delay>
         <repeat>50</repeat>
         <onconnect>1</onconnect>
-        <text>DecayRP(decayrp.net)</text>
+        <text>DecayRP.net</text>
     </message>
 
 </messages>
