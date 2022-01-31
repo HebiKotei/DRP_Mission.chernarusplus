@@ -25086,7 +25086,10 @@
         <category name="containers"/>
         <usage name="Industrial"/>
     </type>
-
+		<type name="WrittenNote">
+        <lifetime>604800</lifetime>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    </type>
 		<type name="MD_CampHouse_White">
         <lifetime>604800</lifetime>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>

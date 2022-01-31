@@ -2,6 +2,9 @@
 
 <spawnabletypes>
 	<damage min="0.4" max="0.7" />
+		<type name="WrittenNote">
+		<hoarder />
+	</type>
 	<type name="MD_CampHouse_White">
 		<hoarder />
 	</type>
