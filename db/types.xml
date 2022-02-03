@@ -27658,10 +27658,10 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
     </type>
 	<type name="jaakari_simple_tan_mung">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>604800</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27672,10 +27672,10 @@
 		<usage name="Village"/>
     </type>
     <type name="jaakari_simple_black_mung">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>604800</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27686,10 +27686,10 @@
 		<usage name="Village"/>
     </type>
     <type name="jaakari_simple_camo_mung">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>604800</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27698,10 +27698,10 @@
         <usage name="Military"/>
     </type>
     <type name="jaakari_simple_brown_mung">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>604800</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27710,10 +27710,10 @@
         <usage name="Military"/>
     </type>
     <type name="jaakari_tan_mung">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>604800</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27724,10 +27724,10 @@
 		<usage name="Village"/>
     </type>
     <type name="jaakari_black_mung">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>604800</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27738,10 +27738,10 @@
 		<usage name="Village"/>
     </type>
     <type name="jaakari_camo_mung">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>604800</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -27752,10 +27752,10 @@
 		<usage name="Village"/>
     </type>
     <type name="jaakari_brown_mung">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>604800</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -28253,10 +28253,10 @@
 		<usage name="Military"/>
     </type>
 		<type name="rifleholster_black_mung">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -28266,10 +28266,10 @@
 		<usage name="Industrial"/>
     </type>
     <type name="rifleholster_tan_mung">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -28279,10 +28279,10 @@
 		<usage name="Industrial"/>
     </type>
     <type name="rifleholster_snow_mung">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -28292,10 +28292,10 @@
 		<usage name="Industrial"/>
     </type>
     <type name="rifleholster_TTsKO_mung">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -28304,10 +28304,10 @@
         <usage name="Military"/>
     </type>
     <type name="rifleholster_leatherengraved_mung">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -28316,10 +28316,10 @@
         <usage name="Military"/>
     </type>
 	 <type name="hardigg_Mung">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>604800</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -28328,10 +28328,10 @@
         <usage name="Military"/>
     </type>
     <type name="hardigg2_Mung">
-        <nominal>10</nominal>
+        <nominal>5</nominal>
         <lifetime>604800</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -28340,10 +28340,10 @@
         <usage name="Military"/>
     </type>
 	<type name="rifleholster_camo_mung">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -28364,10 +28364,10 @@
         <usage name="Military"/>
     </type>
 	<type name="rifleholster_camo_ucp_mung">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
