@@ -32,6 +32,12 @@
 				<type name="MD_Caravan_WBrown">
 		<hoarder />
 	</type>
+	<type name="hardigg2_Mung">
+		<hoarder />
+	</type>
+		<type name="hardigg_Mung">
+		<hoarder />
+	</type>
 					<type name="Msp_Mattress_Blue">
 		<hoarder />
 	</type>
