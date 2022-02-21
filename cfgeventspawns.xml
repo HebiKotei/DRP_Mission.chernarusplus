@@ -1425,7 +1425,6 @@
 	</event>
 	
 	<event name="AnimalHimera" />
-	<event name="AnimalKaban" />
 	<event name="InfectedKrovosos" />
 	<event name="AnimalTark" />
 	
