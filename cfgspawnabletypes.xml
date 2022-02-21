@@ -1994,12 +1994,61 @@
 	</type>
 	<!--END OF ZOMBIES  -->
 	<!--  WEAPONS  -->
+	
+	<!-- HRW -->
+		<type name="HRW_Gewehr43">
+		<attachments chance="0.60">
+			<item name="HRW_Mag_Gewehr43_10Rnd" chance="1.00" />
+		</attachments>
+		</type>
+		<type name="HRW_M1A_Raw">
+		<attachments chance="0.40">
+			<item name="HRW_Mag_M1A_Raw_10Rnd" chance="1.00" />
+		</attachments>
+		</type>
+	   <type name="HRW_M16M_Raw">
+		<attachments chance="0.40">
+			<item name="Mag_CMAG_40Rnd" chance="1.00" />
+		</attachments>
+		</type>
+	    <type name="HRW_Vepr">
+		<attachments chance="1.00">
+		<item name="HRW_Mag_Vepr_10Rnd" chance="1.00" />
+		</attachments>
+		</type>
+		<type name="HRW_Thompson">
+		<attachments chance="1.00">
+		<item name="HRW_Mag_Thompson_30Rnd" chance="1.00" />
+		</attachments>
+		</type>
+				<type name="HRW_MAT49">
+		<attachments chance="1.00">
+		<item name="HRW_Mag_MAT49_32Rnd" chance="1.00" />
+		</attachments>
+		</type>
+						<type name="HRW_MP9">
+		<attachments chance="1.00">
+		<item name="HRW_Mag_MP9_30Rnd" chance="1.00" />
+		</attachments>
+		</type>
+			
+	
+	
 	<type name="MakarovIJ70">
 		<attachments chance="0.60">
 			<item name="Mag_IJ70_8Rnd" chance="1.00" />
 		</attachments>
+		</type>
+	<type name="PP19">
+		<attachments chance="1">
+		<item name="PP19_Bttstck" chance="1.00" />
+			<item name="Mag_PP19_64Rnd" chance="0.50" />
+		</attachments>
+			</type>	
+		
+		
 		<!-- MakarovPBSuppressor -->
-	</type>
+
 	<type name="MKII">
 		<attachments chance="0.60">
 			<item name="Mag_MKII_10Rnd" chance="1.00" />
@@ -2103,12 +2152,12 @@
 		<attachments chance="1.0">
 			<item name="PSO11Optic" chance="1.00" />
 		</attachments>
-		<attachments chance="0.10">
+		<attachments chance="1.00">
 			<item name="Mag_VSS_10Rnd" chance="1.00" />
 		</attachments>
 	</type>	
 	<type name="ASVAL">
-		<attachments chance="0.10">
+		<attachments chance="1.00">
 			<item name="Mag_VAL_20Rnd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.30">

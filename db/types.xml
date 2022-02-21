@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <types>
+
+	<type name="AlarmClock_Blue">
+        <nominal>25</nominal>
+        <lifetime>28800</lifetime>
+        <restock>1200</restock>
+        <min>20</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="School"/>
+    </type>
+		<type name="AlarmClock_Red">
+        <nominal>25</nominal>
+        <lifetime>28800</lifetime>
+        <restock>1200</restock>
+        <min>20</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="School"/>
+    </type>
+		<type name="AlarmClock_Green">
+        <nominal>25</nominal>
+        <lifetime>28800</lifetime>
+        <restock>1200</restock>
+        <min>20</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="containers"/>
+        <usage name="Town"/>
+		<usage name="Office"/>
+		<usage name="School"/>
+    </type>
     <type name="ACOGOptic">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
@@ -590,10 +633,10 @@
 		<usage name="Police"/>
     </type>
     <type name="AmmoBox_380_35rnd">
-        <nominal>0</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>0</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -875,10 +918,10 @@
         <value name="Tier4"/>
     </type>
     <type name="Ammo_357">
-        <nominal>120</nominal>
+        <nominal>80</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
-        <min>80</min>
+        <min>60</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -894,10 +937,10 @@
 		<usage name="Police"/>
     </type>
     <type name="Ammo_380">
-        <nominal>0</nominal>
+        <nominal>80</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
-        <min>0</min>
+        <min>65</min>
         <quantmin>10</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -908,10 +951,10 @@
         <usage name="Village"/>
     </type>
     <type name="Ammo_45ACP">
-        <nominal>60</nominal>
+        <nominal>45</nominal>
         <lifetime>14400</lifetime>
         <restock>180</restock>
-        <min>55</min>
+        <min>40</min>
         <quantmin>10</quantmin>
         <quantmax>40</quantmax>
         <cost>100</cost>
@@ -3378,16 +3421,73 @@
         <usage name="Hunting"/>
     </type>
     <type name="CZ61">
-        <nominal>0</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Police"/>
+		<usage name="Coast"/>
+		<usage name="Village"/>
+		<usage name="Town"/>
+    </type>
+	    <type name="PP19">
+        <nominal>40</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>30</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+    <usage name="Police"/>
+		<usage name="Coast"/>
+		<usage name="Village"/>
+		<usage name="Town"/>
+		<usage name="Military"/>
+		<usage name="Office"/>
+		<usage name="Lunapark"/>
+    </type>
+		    <type name="PP19_Bttstck">
+        <nominal>10</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+    <usage name="Police"/>
+		<usage name="Coast"/>
+		<usage name="Village"/>
+		<usage name="Town"/>
+		<usage name="Military"/>
+		<usage name="Office"/>
+		<usage name="Lunapark"/>
+    </type>
+			    <type name="Mag_PP19_64Rnd">
+        <nominal>45</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>35</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+    <usage name="Police"/>
+		<usage name="Coast"/>
+		<usage name="Village"/>
+		<usage name="Town"/>
+		<usage name="Military"/>
+		<usage name="Office"/>
+		<usage name="Lunapark"/>
     </type>
     <type name="CZ75">
         <nominal>25</nominal>
@@ -10370,17 +10470,22 @@
         <value name="Tier3"/>
         <value name="Tier4"/>
     </type>
+	
     <type name="Mag_CZ61_20Rnd">
-        <nominal>0</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>0</min>
+        <min>10</min>
         <quantmin>5</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="Police"/>
+		<usage name="Office"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<usage name="Coast"/>
     </type>
     <type name="Mag_CZ75_15Rnd">
         <nominal>60</nominal>
@@ -10719,10 +10824,10 @@
 		<usage name="Village"/>
     </type>
     <type name="MakarovIJ70">
-        <nominal>0</nominal>
+        <nominal>50</nominal>
         <lifetime>28800</lifetime>
         <restock>1200</restock>
-        <min>0</min>
+        <min>40</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -10731,6 +10836,8 @@
         <tag name="shelves"/>
         <usage name="Town"/>
         <usage name="Village"/>
+		<usage name="Office"/>
+		<usage name="Coast"/>
         <value name="Tier1"/>
     </type>
     <type name="ManSuit_Beige">
@@ -11539,6 +11646,21 @@
     </type>
     <type name="MotoHelmet_White">
         <nominal>12</nominal>
+        <lifetime>14400</lifetime>
+        <restock>1200</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="clothes"/>
+        <tag name="shelves"/>
+        <usage name="Industrial"/>
+        <usage name="Town"/>
+        <usage name="Village"/>
+    </type>
+	<type name="MotoHelmet_Yellow">
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>1200</restock>
         <min>5</min>
@@ -16804,6 +16926,9 @@
         <usage name="Military"/>
 		<usage name="Town"/>
 		<usage name="Village"/>
+		<usage name="Lunapark"/>
+		<usage name="Coast"/>
+		<usage name="Hunting"/>
     </type>
     <type name="VitaminBottle">
         <nominal>40</nominal>
@@ -19373,6 +19498,92 @@
     </type>
 	
 	<!-- Hellretex Weapons -->
+	
+	    <type name="AmmoBox_792x57_20Rnd">
+        <nominal>50</nominal>
+        <lifetime>28800</lifetime>
+        <restock>1200</restock>
+        <min>45</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+		<usage name="Town"/>
+		<usage name="Village"/>
+		<usage name="Office"/>
+					<usage name="Coast"/>
+		<usage name="Lunapark"/>
+		<usage name="Hunting"/>
+    </type>
+		    <type name="Ammo_792x57">
+        <nominal>50</nominal>
+        <lifetime>28800</lifetime>
+        <restock>1200</restock>
+        <min>45</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+				<usage name="Town"/>
+		<usage name="Village"/>
+		<usage name="Office"/>
+				<usage name="Coast"/>
+		<usage name="Lunapark"/>
+		<usage name="Hunting"/>
+    </type>
+		 <type name="HRW_Gewehr43">
+        <nominal>20</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>15</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+		<usage name="Village"/>
+		<usage name="Office"/>
+		<usage name="Town"/>
+		<usage name="Coast"/>
+		<usage name="Lunapark"/>
+    </type>
+			 <type name="HRW_KAR98K">
+        <nominal>20</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>15</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Hunting"/>
+		<usage name="Village"/>
+		<usage name="Office"/>
+		<usage name="Town"/>
+    </type>
+			 <type name="HRW_Mag_Gewehr43_10Rnd">
+        <nominal>35</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1200</restock>
+        <min>30</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <category name="weapons"/>
+        <usage name="Military"/>
+		<usage name="Village"/>
+		<usage name="Office"/>
+		<usage name="Town"/>
+				<usage name="Coast"/>
+		<usage name="Lunapark"/>
+    </type>
 	 <type name="HRW_AEK971">
         <nominal>10</nominal>
         <lifetime>28800</lifetime>
@@ -19735,10 +19946,10 @@
 		<usage name="Lunapark"/>
     </type>
 	 <type name="HRW_USP_9x19">
-        <nominal>40</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>1200</restock>
-        <min>20</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -19901,10 +20112,10 @@
 		<value name="Tier4"/>
     </type>
  <type name="HRW_Mag_USP_9x19_15Rnd">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>180</restock>
-        <min>20</min>
+        <min>10</min>
         <quantmin>20</quantmin>
         <quantmax>90</quantmax>
         <cost>100</cost>
@@ -28818,36 +29029,7 @@
         <usage name="Medic"/>
 		<usage name="Lunapark"/>
     </type>
-	 <type name="Gewehr43_mung">
-        <nominal>35</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1200</restock>
-        <min>25</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-		<usage name="Town"/>
-		<usage name="Coast"/>
-		<usage name="Lunapark"/>
-    </type>
-    <type name="Mag_gewehr43_10Rnd_mung">
-        <nominal>35</nominal>
-        <lifetime>10800</lifetime>
-        <restock>1200</restock>
-        <min>25</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <category name="weapons"/>
-        <usage name="Military"/>
-		<usage name="Coast"/>
-		<usage name="Town"/>
-		<usage name="Lunapark"/>
-    </type>
+	
 	
 	
 	<!-- Storage Persistence -->
