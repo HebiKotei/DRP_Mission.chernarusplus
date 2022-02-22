@@ -38,6 +38,21 @@
 		<type name="hardigg_Mung">
 		<hoarder />
 	</type>
+	<type name="Msp_MilitaryCrate_Brown">
+		<hoarder />
+	</type>
+		<type name="Msp_MilitaryCrate_Green">
+		<hoarder />
+	</type>
+		<type name="Msp_MilitaryCrate_Grey">
+		<hoarder />
+	</type>
+		<type name="Msp_MilitaryCrate_Olive">
+		<hoarder />
+	</type>
+		<type name="Msp_MilitaryCrate_Tan">
+		<hoarder />
+	</type>
 					<type name="Msp_Mattress_Blue">
 		<hoarder />
 	</type>

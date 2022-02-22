@@ -26804,7 +26804,7 @@
     </type>
 	<type name="Msp_MilitaryCrate_Brown">
         <nominal>6</nominal>
-        <lifetime>10400</lifetime>
+        <lifetime>604800</lifetime>
         <restock>1200</restock>
         <min>3</min>
         <quantmin>-1</quantmin>
